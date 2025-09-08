@@ -1,0 +1,12 @@
+TeamB2025GameJam/.vs
+TeamB2025GameJam/*.csproj
+TeamB2025GameJam/Library
+TeamB2025GameJam/Temp/
+TeamB2025GameJam/Library/
+TeamB2025GameJam/obj/
+TeamB2025GameJam/*.unitypackage
+TeamB2025GameJam/*.sln
+TeamB2025GameJam/UnityPackageManager
+TeamB2025GameJam/*.collabignore
+TeamB2025GameJam/AssetBundles/
+TeamB2025GameJam/EXE/
