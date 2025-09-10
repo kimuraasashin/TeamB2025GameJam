@@ -47,12 +47,6 @@ public class GameManager : MonoBehaviour
             ChangeState(Game.GameOver);
         }
 
-        //デバッグ スペースでゲームクリア
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            ChangeState(Game.GameClear);
-        }
-
         //ゲームの状態がプレイ中でなければ
         if (gameState != Game.GamePlay)
         {
