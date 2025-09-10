@@ -10,6 +10,7 @@ public class NPC : MonoBehaviour
     public int Possession;
     public NavMeshAgent agent;
     public Text UI;
+    public Transform goal;
     private Transform target;
     public bool move = false; 
     //public LineRenderer lr;
@@ -62,13 +63,20 @@ public class NPC : MonoBehaviour
     {
         if (other.gameObject.GetComponent<Treasure>())
         {
-            other.gameObject.GetComponent<Treasure>().GetTime -= 1.0f * Time.deltaTime;
-            if (other.gameObject.GetComponent<Treasure>().GetTime <= 0.0f)
+            if (target != null)
             {
-                Possession++;
-                Destroy(other.gameObject);
-                UI.text = "Game Over";
+                other.gameObject.GetComponent<Treasure>().GetTime -= 1.0f * Time.deltaTime;
+                if (other.gameObject.GetComponent<Treasure>().GetTime <= 0.0f)
+                {
+                    Possession++;
+                    Destroy(other.gameObject);
+                    target = goal;
+                }
             }
+        }
+        if (other.gameObject.name=="goal")
+        {
+                Destroy(gameObject);
         }
     }
 }
