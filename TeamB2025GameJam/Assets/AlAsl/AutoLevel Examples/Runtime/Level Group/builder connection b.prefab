@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8119245937754022623
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4781544637413369268}
+  - component: {fileID: 890815903809683798}
+  m_Layer: 0
+  m_Name: builder connection b
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4781544637413369268
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8119245937754022623}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &890815903809683798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8119245937754022623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de41b0ea8c960b46ad14f22f2fb0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockRepo: {fileID: 554952764062867568, guid: 0f0ab8c77f61868468ccf1c3033bee5a, type: 3}
+  groupsWeights:
+  - hash: 445671445
+    overridWeight: 0
+    Weight: 1
+  - hash: -11287667
+    overridWeight: 0
+    Weight: 1
+  - hash: -1966747463
+    overridWeight: 0
+    Weight: 1
+  - hash: -1132609893
+    overridWeight: 1
+    Weight: 0
+  - hash: 331973243
+    overridWeight: 1
+    Weight: 0.5
+  - hash: -380813486
+    overridWeight: 1
+    Weight: 0
+  - hash: -10898899
+    overridWeight: 0
+    Weight: 1
+  boundarySettings:
+    groupsBoundary:
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 
+    - groups: 
+    levelBoundary:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  useMutliThreadedSolver: 0
+  selection:
+    m_Position: {x: 17, y: 4, z: 6}
+    m_Size: {x: 2, y: 1, z: 4}
+  levelData:
+    position: {x: 16, y: 3, z: 6}
+    blocks:
+      size: {x: 4, y: 3, z: 4}
+      array: 9923e4b535e423f135e423f1659cb30faaeb4a5a33e2ff8333e2ff8322620e152e86ceb1f88f6689f88f6689a88687929923e4b535e423f135e423f1659cb30f0efd5cbb33e2ff8333e2ff8386d4d2e62e86ceb1f88f6689f88f6689a88687929923e4b535e423f135e423f1659cb30f0efd5cbb33e2ff8333e2ff835a061c122e86ceb1f88f6689f88f6689a88687929923e4b535e423f135e423f1659cb30faaeb4a5a33e2ff8333e2ff8322620e152e86ceb1f88f6689f88f6689a8868792
+  inputWave:
+    size: {x: 4, y: 3, z: 4}
+    array:
+    - groups: 4
+    - groups: 4
+    - groups: 4
+    - groups: 4
+    - groups: 4
+    - groups: 1
+    - groups: 1
+    - groups: 4
+    - groups: 4
+    - groups: 4
+    - groups: 4
+    - groups: 4
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 4
+    - groups: 4
+    - groups: 4
+    - groups: 4
+    - groups: 4
+    - groups: 1
+    - groups: 1
+    - groups: 4
+    - groups: 4
+    - groups: 4
+    - groups: 4
+    - groups: 4

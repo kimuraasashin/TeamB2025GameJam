@@ -24,14 +24,18 @@ namespace AutoLevel.Examples
 
         private void Update()
         {
+
             if (Input.GetKeyDown(KeyCode.R))
             {
                 // solve all the level builder for the group with index 0, once the solver succeed
                 // we run the builders
                 if (groupManager.Solve(0))
                 {
-                    foreach (var builder in builders)
-                        builder.Rebuild();
+                    foreach (var rebuild in builders)
+                        rebuild.Rebuild();
+
+
+
                 }
                 else
                     Debug.Log("build failed");

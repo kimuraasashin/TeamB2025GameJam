@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3120877123803349281
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 925736869749892597}
+  - component: {fileID: 7772501985618728243}
+  m_Layer: 0
+  m_Name: builder connection a
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &925736869749892597
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3120877123803349281}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7772501985618728243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3120877123803349281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de41b0ea8c960b46ad14f22f2fb0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockRepo: {fileID: 554952764062867568, guid: 0f0ab8c77f61868468ccf1c3033bee5a, type: 3}
+  groupsWeights:
+  - hash: 445671445
+    overridWeight: 0
+    Weight: 1
+  - hash: -11287667
+    overridWeight: 0
+    Weight: 1
+  - hash: -1966747463
+    overridWeight: 0
+    Weight: 1
+  - hash: -1132609893
+    overridWeight: 1
+    Weight: 0
+  - hash: 331973243
+    overridWeight: 1
+    Weight: 0.5
+  - hash: -380813486
+    overridWeight: 1
+    Weight: 0
+  - hash: -10898899
+    overridWeight: 0
+    Weight: 1
+  boundarySettings:
+    groupsBoundary:
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    - groups: 
+    - groups: 
+    - groups: 8dc353ff
+    levelBoundary:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  useMutliThreadedSolver: 0
+  selection:
+    m_Position: {x: 8, y: 4, z: -10}
+    m_Size: {x: 7, y: 1, z: 2}
+  levelData:
+    position: {x: 8, y: 3, z: -11}
+    blocks:
+      size: {x: 7, y: 3, z: 4}
+      array: 3caf77593caf7759c32d3f8052367fff3caf77593caf77593caf775903d5bb75c8d3d91482cb7e3203d5bb75ac54251f03d5bb7503d5bb7502c7296a02c7296a02c7296a02c7296a02c7296a02c7296a02c7296a35e423f135e423f1c8c8f60c467d15dd35e423f135e423f135e423f133e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff83f88f6689f88f6689f88f6689f88f6689f88f6689f88f6689f88f668935e423f135e423f1c8c8f60c467d15dd35e423f135e423f135e423f133e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff83f88f6689f88f6689f88f6689f88f6689f88f6689f88f6689f88f668935c3744635c3744696c942f7f80082ee35c3744635c3744635c374466f47de466f47de4698baa69c6f47de466f47de46f33689616f47de4626c11c5b26c11c5b26c11c5b26c11c5b26c11c5b26c11c5b26c11c5b
+  inputWave:
+    size: {x: 7, y: 3, z: 4}
+    array:
+    - groups: 4
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 4
+    - groups: 4
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 4
+    - groups: 4
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 4
+    - groups: 4
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 4
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 4
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 4
+    - groups: 4
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 4
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 4
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 4
+    - groups: 4
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 4
+    - groups: 4
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 4
+    - groups: 4
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 4

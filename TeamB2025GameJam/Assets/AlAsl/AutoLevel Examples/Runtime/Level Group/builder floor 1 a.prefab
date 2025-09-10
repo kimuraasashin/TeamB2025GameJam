@@ -1,0 +1,396 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5357979555298314262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5059751084466855549}
+  - component: {fileID: 3004072708385520942}
+  m_Layer: 0
+  m_Name: builder floor 1 a
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5059751084466855549
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5357979555298314262}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3004072708385520942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5357979555298314262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de41b0ea8c960b46ad14f22f2fb0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockRepo: {fileID: 554952764062867568, guid: 0f0ab8c77f61868468ccf1c3033bee5a, type: 3}
+  groupsWeights:
+  - hash: 445671445
+    overridWeight: 0
+    Weight: 1
+  - hash: -11287667
+    overridWeight: 0
+    Weight: 1
+  - hash: -1966747463
+    overridWeight: 0
+    Weight: 1
+  - hash: -1132609893
+    overridWeight: 1
+    Weight: 0.1
+  - hash: 331973243
+    overridWeight: 1
+    Weight: 0.5
+  - hash: -380813486
+    overridWeight: 1
+    Weight: 0.5
+  - hash: -10898899
+    overridWeight: 0
+    Weight: 1
+  boundarySettings:
+    groupsBoundary:
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    - groups: 
+    - groups: 8dc353ff
+    levelBoundary:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  useMutliThreadedSolver: 0
+  selection:
+    m_Position: {x: 5, y: 3, z: -7}
+    m_Size: {x: 2, y: 3, z: 2}
+  levelData:
+    position: {x: -2, y: 3, z: -14}
+    blocks:
+      size: {x: 10, y: 3, z: 10}
+      array: 6d54e205c423a62c2b24bfd0e629d5e23caf77593caf77593caf77592b24bfd0e629d5e2562a764cab7c47a6da37cec984239b75b1332c130cd1380782cb7e32ac54251f84239b75b1332c139ecaf67ef96b672402c7296a02c7296a02c7296a02c7296a02c7296a02c7296a02c7296a02c7296ada40d88666cbc95c35e423f19d2727a4d8966b2635e423f135e423f1cf3a9a3639067d0235e423f1659cb30f99198c2133e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff835a2c6e1c2e86ceb1f88f6689f88f6689f88f6689f88f6689f88f6689f88f6689f88f6689f88f6689a88687922aeb64ec35e423f1c8d1b15535e423f135e423f135e423f135e423f1ce6092d635e423f1659cb30f873c3d7a33e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8386d4d2e62e86ceb1f88f6689f88f6689f88f6689f88f6689f88f6689f88f6689f88f6689f88f6689a88687929923e4b535e423f1e7076c930ed74f2ae7076c9335c3744635c374460ed74f2a35e423f12c1f6e940efd5cbb33e2ff837687721cfae796c8a9be15bcda9fd19e98baa69cfae796c833e2ff83e874d2392e86ceb1f88f668994eff68d894c6b1c94eff68d26c11c5b26c11c5b894c6b1cf88f6689498a6f279923e4b535e423f12c1f6e944f83f43c659cb30fc37c287fc37c287f9923e4b535e423f135e423f1d971ceeb33e2ff830a21b77fe1e2e8835a061c12c37c287fc37c287f0efd5cbb33e2ff8333e2ff832e86ceb1f88f6689498a6f2740c3e8f5a8868792c37c287fc37c287f2e86ceb1f88f6689f88f66899923e4b535e423f1e9ea42bbe7076c93451c735ac37c287fc37c287f9923e4b55c71a9e935e423f1581c141d33e2ff8333e2ff83a9be15bcdc936a0bc37c287fc37c287fd971ceeb33e2ff8333e2ff832e86ceb1f88f6689f88f668994eff68daabbd26ac37c287fc37c287f2e86ceb1f88f6689f88f66899923e4b518448d019566b4892c1f6e94562a764cc37c287fc37c287fa79b7d97089a8a0a266d251b302fbb4933e2ff8333e2ff83e874d2399ecaf67ec37c287fc37c287f2d65a8ec659c9448afd88b422e86ceb1f88f6689f88f6689498a6f27da40d886c37c287fc37c287f44fc933f26c11c5b26c11c5b9923e4b535e423f135e423f135e423f12c1f6e943caf7759562a764cc37c287fc37c287fc37c287faaeb4a5a33e2ff8333e2ff8333e2ff83e874d239c8d3d9149ecaf67ec37c287fc37c287fc37c287f2e86ceb1f88f6689f88f6689f88f6689498a6f2702c7296ada40d886c37c287fc37c287fc37c287fd0ff41f035e423f135e423f135e423f135e423f135e423f1659cb30fc37c287fc37c287fc37c287f3f2606e033e2ff8333e2ff8333e2ff8333e2ff8333e2ff830db00b6bc37c287fc37c287fc37c287f2e86ceb1f88f6689f88f6689f88f6689f88f6689f88f6689a8868792c37c287fc37c287fc37c287fa79b7d9735c374464d2c3b6235c374460ed74f2a35e423f1f0761fb4c37c287fc37c287fc37c287f2d65a8ecf3368961543a761b35c6de3cfae796c833e2ff838f6ba8a6c37c287fc37c287fc37c287f44fc933f26c11c5b26c11c5b26c11c5b894c6b1cf88f6689a8868792c37c287fc37c287fc37c287f
+  inputWave:
+    size: {x: 10, y: 3, z: 10}
+    array:
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2
+    - groups: 2
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2
+    - groups: 2
+    - groups: 2147483647
+    - groups: 1
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2
+    - groups: 2
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2
+    - groups: 2
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2
+    - groups: 2
+    - groups: 2147483647
+    - groups: 1
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2
+    - groups: 2
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2
+    - groups: 2
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2
+    - groups: 2
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2
+    - groups: 2
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2
+    - groups: 2
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2
+    - groups: 2
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2
+    - groups: 2
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2
+    - groups: 2
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2
+    - groups: 2
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2
+    - groups: 2
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647

@@ -1,0 +1,5356 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &26352465288067292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2397341496817853373}
+  - component: {fileID: 3453111113878721274}
+  m_Layer: 0
+  m_Name: room4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2397341496817853373
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 26352465288067292}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.0966134, y: -2.6374397, z: -6.394293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5828541576493058753}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3453111113878721274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 26352465288067292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de41b0ea8c960b46ad14f22f2fb0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockRepo: {fileID: 0}
+  groupsWeights:
+  - hash: 445671445
+    overridWeight: 0
+    Weight: 1
+  - hash: -11287667
+    overridWeight: 0
+    Weight: 1
+  - hash: -1966747463
+    overridWeight: 0
+    Weight: 1
+  boundarySettings:
+    groupsBoundary:
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    - groups: 
+    levelBoundary:
+    - {fileID: 315154194020411298}
+    - {fileID: 0}
+    - {fileID: 181212727728751771}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 917725908670909826}
+  useMutliThreadedSolver: 0
+  selection:
+    m_Position: {x: -7, y: 0, z: 11}
+    m_Size: {x: 1, y: 1, z: 1}
+  levelData:
+    position: {x: -10, y: 0, z: 10}
+    blocks:
+      size: {x: 7, y: 3, z: 7}
+      array: 3caf77593caf77593caf7759562a764c6d54e2053caf7759562a764c03d5bb7503d5bb7503d5bb759ecaf67eab7c47a603d5bb759ecaf67e02c7296a02c7296a02c7296ada40d886f96b672402c7296ada40d886e7076c9335c3744635c37446451c735a9923e4b59d139df3659cb30fa9be15bc6f47de466f47de46dc936a0baaeb4a5a33e2ff8322620e1594eff68d26c11c5b26c11c5baabbd26a2e86ceb1debb5e21a8868792659cb30fc37c287f6d54e2053caf77594f83f43c9d139df3659cb30f22620e15c37c287fab7c47a603d5bb753c994d7533e2ff8322620e15a8868792c37c287ff96b672402c7296a40c3e8f5debb5e21a88687922c1f6e94562a764c9923e4b5e7076c930ed74f2a9d139df3659cb30fe874d2399ecaf67eaaeb4a5aa9be15bc83a2537c33e2ff8322620e15498a6f27da40d8862e86ceb194eff68d894c6b1cdebb5e21a886879235c37446451c735aa79b7d97451c735a9923e4b5e7076c93451c735a6f47de46dc936a0b2d65a8ecdc936a0baaeb4a5aa9be15bcdc936a0b26c11c5baabbd26a44fc933faabbd26a2e86ceb194eff68daabbd26a6d54e205562a764c6d54e205562a764c9923e4b52c1f6e94562a764cab7c47a69ecaf67eab7c47a69ecaf67eaaeb4a5ae874d2399ecaf67ef96b6724da40d886f96b6724da40d8862e86ceb1498a6f27da40d8864f83f43c2c1f6e944f83f43c2c1f6e944f83f43ce7076c93451c735a3c994d75e874d2393c994d75e874d2393c994d75a9be15bcdc936a0b40c3e8f5498a6f2740c3e8f5498a6f2740c3e8f594eff68daabbd26a
+  inputWave:
+    size: {x: 7, y: 3, z: 7}
+    array:
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+--- !u!1 &553268066873834837
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8781144380255053182}
+  - component: {fileID: 8759716593779795942}
+  m_Layer: 0
+  m_Name: corner3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8781144380255053182
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 553268066873834837}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8596588970482401806}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8759716593779795942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 553268066873834837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de41b0ea8c960b46ad14f22f2fb0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockRepo: {fileID: 0}
+  groupsWeights:
+  - hash: 445671445
+    overridWeight: 0
+    Weight: 1
+  - hash: -11287667
+    overridWeight: 0
+    Weight: 1
+  - hash: -1966747463
+    overridWeight: 0
+    Weight: 1
+  boundarySettings:
+    groupsBoundary:
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 
+    levelBoundary:
+    - {fileID: 1752510123968835174}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 2722667913627580040}
+    - {fileID: 0}
+    - {fileID: 3442601268687686281}
+  useMutliThreadedSolver: 0
+  selection:
+    m_Position: {x: 10, y: 1, z: -2}
+    m_Size: {x: 1, y: 1, z: 1}
+  levelData:
+    position: {x: 10, y: 0, z: -3}
+    blocks:
+      size: {x: 3, y: 3, z: 3}
+      array: 562a764c6d54e205562a764c9ecaf67eab7c47a69ecaf67eda40d886f96b6724da40d8862c1f6e944f83f43c2c1f6e94e874d2393c994d75e874d239498a6f2740c3e8f5498a6f270ed74f2ae7076c930ed74f2a83a2537ca9be15bc83a2537c894c6b1c94eff68d894c6b1c
+  inputWave:
+    size: {x: 3, y: 3, z: 3}
+    array:
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+--- !u!1 &827876981618139857
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4826493747325497770}
+  - component: {fileID: 2722667913627580040}
+  m_Layer: 0
+  m_Name: bigroom2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4826493747325497770
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827876981618139857}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.0966134, y: -2.6374397, z: -6.394293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9031162996763548752}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2722667913627580040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827876981618139857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de41b0ea8c960b46ad14f22f2fb0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockRepo: {fileID: 0}
+  groupsWeights:
+  - hash: 445671445
+    overridWeight: 0
+    Weight: 1
+  - hash: -11287667
+    overridWeight: 0
+    Weight: 1
+  - hash: -1966747463
+    overridWeight: 0
+    Weight: 1
+  boundarySettings:
+    groupsBoundary:
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 
+    levelBoundary:
+    - {fileID: 8759716593779795942}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 6924403863818821134}
+    - {fileID: 0}
+    - {fileID: 4306195878076319830}
+  useMutliThreadedSolver: 0
+  selection:
+    m_Position: {x: 13, y: 0, z: 0}
+    m_Size: {x: 1, y: 1, z: 1}
+  levelData:
+    position: {x: 13, y: 0, z: -3}
+    blocks:
+      size: {x: 9, y: 3, z: 10}
+      array: 6d54e205562a764cc37c287fc37c287f6d54e2053caf7759562a764c6d54e205562a764cab7c47a69ecaf67ec37c287fc37c287fab7c47a603d5bb759ecaf67eab7c47a69ecaf67ef96b6724da40d886c37c287fc37c287ff96b672402c7296ada40d886f96b6724da40d8869923e4b52c1f6e94562a764c6d54e2054f83f43c9d139df32c1f6e944f83f43c659cb30faaeb4a5ae874d2399ecaf67eab7c47a63c994d7533e2ff83e874d2393c994d7522620e152e86ceb1498a6f27da40d886f96b672440c3e8f5debb5e21498a6f2740c3e8f5a88687929923e4b5e7076c93451c735aa79b7d970ed74f2a9d139df39d139df39d139df32c1f6e94aaeb4a5aa9be15bcdc936a0b2d65a8ec83a2537c33e2ff8333e2ff8333e2ff83e874d2392e86ceb194eff68daabbd26a44fc933f894c6b1cdebb5e21debb5e21debb5e21498a6f274f83f43c659cb30f6d54e2053caf77594f83f43ce7076c930ed74f2ae7076c9335c374463c994d7522620e15ab7c47a603d5bb753c994d75a9be15bc83a2537ca9be15bc6f47de4640c3e8f5a8868792f96b672402c7296a40c3e8f594eff68d894c6b1c94eff68d26c11c5b0ed74f2a2c1f6e944f83f43c9d139df39d139df32c1f6e944f83f43c659cb30f6d54e20583a2537ce874d2393c994d7533e2ff8333e2ff83e874d2393c994d7522620e15ab7c47a6894c6b1c498a6f2740c3e8f5debb5e21debb5e21498a6f2740c3e8f5a8868792f96b67249923e4b5e7076c9335c3744635c3744635c3744635c374460ed74f2a2c1f6e944f83f43caaeb4a5aa9be15bc6f47de466f47de466f47de466f47de4683a2537ce874d2393c994d752e86ceb194eff68d26c11c5b26c11c5b26c11c5b26c11c5b894c6b1c498a6f2740c3e8f59923e4b52c1f6e943caf77593caf77593caf7759562a764ca79b7d970ed74f2ae7076c93aaeb4a5ae874d23903d5bb7503d5bb7503d5bb759ecaf67e2d65a8ec83a2537ca9be15bc2e86ceb1498a6f2702c7296a02c7296a02c7296ada40d88644fc933f894c6b1c94eff68da79b7d9735c374460ed74f2ae7076c930ed74f2a2c1f6e94562a764c9923e4b5659cb30f2d65a8ec6f47de4683a2537ca9be15bc83a2537ce874d2399ecaf67eaaeb4a5a22620e1544fc933f26c11c5b894c6b1c94eff68d894c6b1c498a6f27da40d8862e86ceb1a88687923caf77593caf77594f83f43c659cb30f9923e4b5e7076c93451c735aa79b7d97451c735a03d5bb7503d5bb753c994d7522620e15aaeb4a5aa9be15bcdc936a0b2d65a8ecdc936a0b02c7296a02c7296a40c3e8f5a88687922e86ceb194eff68daabbd26a44fc933faabbd26a35c3744635c3744635c37446451c735a9923e4b5659cb30f6d54e2053caf77593caf77596f47de466f47de466f47de46dc936a0baaeb4a5a22620e15ab7c47a603d5bb7503d5bb7526c11c5b26c11c5b26c11c5baabbd26a2e86ceb1a8868792f96b672402c7296a02c7296a
+  inputWave:
+    size: {x: 9, y: 3, z: 10}
+    array:
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+--- !u!1 &2080932712749590646
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5828541576493058753}
+  m_Layer: 0
+  m_Name: Room
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5828541576493058753
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080932712749590646}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 11.879372, y: 24.757448, z: -3.8958883}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 340325625300448974}
+  - {fileID: 8102265813806260273}
+  - {fileID: 2538944934287152535}
+  - {fileID: 2397341496817853373}
+  m_Father: {fileID: 4908425944067860940}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2230692893439899699
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8075791103755122310}
+  - component: {fileID: 381816791725339747}
+  m_Layer: 0
+  m_Name: corner2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8075791103755122310
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2230692893439899699}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8596588970482401806}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &381816791725339747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2230692893439899699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de41b0ea8c960b46ad14f22f2fb0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockRepo: {fileID: 0}
+  groupsWeights:
+  - hash: 445671445
+    overridWeight: 0
+    Weight: 1
+  - hash: -11287667
+    overridWeight: 0
+    Weight: 1
+  - hash: -1966747463
+    overridWeight: 0
+    Weight: 1
+  boundarySettings:
+    groupsBoundary:
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 
+    levelBoundary:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1752510123968835174}
+    - {fileID: 0}
+    - {fileID: 8214749280129665187}
+  useMutliThreadedSolver: 0
+  selection:
+    m_Position: {x: -2, y: 1, z: -2}
+    m_Size: {x: 1, y: 1, z: 1}
+  levelData:
+    position: {x: -3, y: 0, z: -3}
+    blocks:
+      size: {x: 3, y: 3, z: 3}
+      array: 6d54e2053caf7759562a764cab7c47a603d5bb759ecaf67ef96b672402c7296ada40d8869923e4b59d139df3659cb30faaeb4a5a33e2ff8322620e152e86ceb1debb5e21a88687929923e4b5e7076c93451c735aaaeb4a5aa9be15bcdc936a0b2e86ceb194eff68daabbd26a
+  inputWave:
+    size: {x: 3, y: 3, z: 3}
+    array:
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+--- !u!1 &2354557041925467905
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4125873098508241919}
+  - component: {fileID: 6953702874611584090}
+  m_Layer: 0
+  m_Name: ' road14'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4125873098508241919
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2354557041925467905}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.0966134, y: -2.6374397, z: -6.394293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6830144619264813515}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6953702874611584090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2354557041925467905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de41b0ea8c960b46ad14f22f2fb0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockRepo: {fileID: 0}
+  groupsWeights:
+  - hash: 445671445
+    overridWeight: 0
+    Weight: 1
+  - hash: -11287667
+    overridWeight: 0
+    Weight: 1
+  - hash: -1966747463
+    overridWeight: 0
+    Weight: 1
+  boundarySettings:
+    groupsBoundary:
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    levelBoundary:
+    - {fileID: 5978539941517373893}
+    - {fileID: 0}
+    - {fileID: 7243526207688675414}
+    - {fileID: 1795054810082292409}
+    - {fileID: 0}
+    - {fileID: 0}
+  useMutliThreadedSolver: 0
+  selection:
+    m_Position: {x: 13, y: 0, z: 17}
+    m_Size: {x: 1, y: 1, z: 1}
+  levelData:
+    position: {x: 13, y: 0, z: 17}
+    blocks:
+      size: {x: 9, y: 3, z: 3}
+      array: 451c735ac37c287f9923e4b52c1f6e943caf77594f83f43c9d139df39d139df39d139df3dc936a0bc37c287faaeb4a5ae874d23903d5bb753c994d7533e2ff8333e2ff8333e2ff83aabbd26ac37c287f2e86ceb1498a6f2702c7296a40c3e8f5debb5e21debb5e21debb5e216d54e205562a764ca79b7d9735c3744635c374460ed74f2ae7076c930ed74f2ae7076c93ab7c47a69ecaf67e2d65a8ec6f47de466f47de4683a2537ca9be15bc83a2537ca9be15bcf96b6724da40d88644fc933f26c11c5b26c11c5b894c6b1c94eff68d894c6b1c94eff68d9923e4b52c1f6e943caf7759562a764c6d54e2054f83f43c659cb30fa79b7d97451c735aaaeb4a5ae874d23903d5bb759ecaf67eab7c47a63c994d7522620e152d65a8ecdc936a0b2e86ceb1498a6f2702c7296ada40d886f96b672440c3e8f5a886879244fc933faabbd26a
+  inputWave:
+    size: {x: 9, y: 3, z: 3}
+    array:
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+--- !u!1 &2644054105052201539
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4165240267698390598}
+  - component: {fileID: 2936601452851406583}
+  m_Layer: 0
+  m_Name: ' road10'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4165240267698390598
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2644054105052201539}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.0966134, y: -2.6374397, z: -6.394293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6830144619264813515}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2936601452851406583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2644054105052201539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de41b0ea8c960b46ad14f22f2fb0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockRepo: {fileID: 0}
+  groupsWeights:
+  - hash: 445671445
+    overridWeight: 0
+    Weight: 1
+  - hash: -11287667
+    overridWeight: 0
+    Weight: 1
+  - hash: -1966747463
+    overridWeight: 0
+    Weight: 1
+  boundarySettings:
+    groupsBoundary:
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    - groups: 
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 
+    levelBoundary:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1939697046437340062}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 5978539941517373893}
+  useMutliThreadedSolver: 0
+  selection:
+    m_Position: {x: 10, y: 0, z: 10}
+    m_Size: {x: 1, y: 1, z: 1}
+  levelData:
+    position: {x: 10, y: 0, z: 10}
+    blocks:
+      size: {x: 3, y: 3, z: 7}
+      array: 9d139df3e7076c930ed74f2a33e2ff83a9be15bc83a2537cdebb5e2194eff68d894c6b1c9d139df3659cb30f9923e4b533e2ff8322620e15aaeb4a5adebb5e21a88687922e86ceb19d139df32c1f6e944f83f43c33e2ff83e874d2393c994d75debb5e21498a6f2740c3e8f5e7076c9335c3744635c37446a9be15bc6f47de466f47de4694eff68d26c11c5b26c11c5b451c735a6d54e205562a764cdc936a0bab7c47a69ecaf67eaabbd26af96b6724da40d8863caf77594f83f43c2c1f6e9403d5bb753c994d75e874d23902c7296a40c3e8f5498a6f2735c374460ed74f2a9d139df36f47de4683a2537c33e2ff8326c11c5b894c6b1cdebb5e21
+  inputWave:
+    size: {x: 3, y: 3, z: 7}
+    array:
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+--- !u!1 &3174534627180249331
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8899553488953510972}
+  - component: {fileID: 5605122344810914369}
+  m_Layer: 0
+  m_Name: ' road2'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8899553488953510972
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3174534627180249331}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.0966134, y: -2.6374397, z: -6.394293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6830144619264813515}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5605122344810914369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3174534627180249331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de41b0ea8c960b46ad14f22f2fb0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockRepo: {fileID: 0}
+  groupsWeights:
+  - hash: 445671445
+    overridWeight: 0
+    Weight: 1
+  - hash: -11287667
+    overridWeight: 0
+    Weight: 1
+  - hash: -1966747463
+    overridWeight: 0
+    Weight: 1
+  boundarySettings:
+    groupsBoundary:
+    - groups: 
+    - groups: 
+    - groups: 
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 
+    levelBoundary:
+    - {fileID: 181212727728751771}
+    - {fileID: 0}
+    - {fileID: 8214749280129665187}
+    - {fileID: 2518436493486774148}
+    - {fileID: 0}
+    - {fileID: 881438052819604278}
+  useMutliThreadedSolver: 0
+  selection:
+    m_Position: {x: -2, y: 1, z: 6}
+    m_Size: {x: 1, y: 1, z: 3}
+  levelData:
+    position: {x: -3, y: 0, z: 5}
+    blocks:
+      size: {x: 3, y: 3, z: 5}
+      array: 4f83f43c2c1f6e94562a764c3c994d75e874d2399ecaf67e40c3e8f5498a6f27da40d8869d139df39d139df32c1f6e9433e2ff8333e2ff83e874d239debb5e21debb5e21498a6f279d139df39d139df3e7076c9333e2ff8333e2ff83a9be15bcdebb5e21debb5e2194eff68d0ed74f2a9d139df3659cb30f83a2537c33e2ff8322620e15894c6b1cdebb5e21a88687929923e4b5e7076c93451c735aaaeb4a5aa9be15bcdc936a0b2e86ceb194eff68daabbd26a
+  inputWave:
+    size: {x: 3, y: 3, z: 5}
+    array:
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+--- !u!1 &3581505031040653240
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8423291896665802057}
+  - component: {fileID: 7884140285483729875}
+  m_Layer: 0
+  m_Name: bigroom1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8423291896665802057
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3581505031040653240}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.0966134, y: -2.6374397, z: -6.394293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9031162996763548752}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7884140285483729875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3581505031040653240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de41b0ea8c960b46ad14f22f2fb0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockRepo: {fileID: 0}
+  groupsWeights:
+  - hash: 445671445
+    overridWeight: 0
+    Weight: 1
+  - hash: -11287667
+    overridWeight: 0
+    Weight: 1
+  - hash: -1966747463
+    overridWeight: 0
+    Weight: 1
+  boundarySettings:
+    groupsBoundary:
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    levelBoundary:
+    - {fileID: 1939023901756169705}
+    - {fileID: 0}
+    - {fileID: 2518436493486774148}
+    - {fileID: 5978539941517373893}
+    - {fileID: 0}
+    - {fileID: 0}
+  useMutliThreadedSolver: 0
+  selection:
+    m_Position: {x: 1, y: 1, z: 11}
+    m_Size: {x: 8, y: 1, z: 8}
+  levelData:
+    position: {x: 0, y: 0, z: 10}
+    blocks:
+      size: {x: 10, y: 3, z: 10}
+      array: 6d54e2053caf77593caf77593caf77593caf77593caf77593caf77593caf77593caf7759562a764cab7c47a603d5bb7503d5bb7503d5bb7503d5bb7503d5bb7503d5bb7503d5bb7503d5bb759ecaf67ef96b672402c7296a02c7296a02c7296a02c7296a02c7296a02c7296a02c7296a02c7296ada40d8869923e4b59d139df39d139df39d139df39d139df39d139df39d139df39d139df39d139df3659cb30faaeb4a5a33e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8322620e152e86ceb1debb5e21debb5e21debb5e21debb5e21debb5e21debb5e21debb5e21debb5e21a88687929923e4b59d139df39d139df39d139df39d139df39d139df39d139df39d139df39d139df3659cb30faaeb4a5a33e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8322620e152e86ceb1debb5e21debb5e21debb5e21debb5e21debb5e21debb5e21debb5e21debb5e21a88687924f83f43c9d139df39d139df39d139df39d139df39d139df39d139df39d139df39d139df32c1f6e943c994d7533e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff83e874d23940c3e8f5debb5e21debb5e21debb5e21debb5e21debb5e21debb5e21debb5e21debb5e21498a6f270ed74f2a9d139df39d139df39d139df39d139df39d139df39d139df39d139df39d139df3e7076c9383a2537c33e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff83a9be15bc894c6b1cdebb5e21debb5e21debb5e21debb5e21debb5e21debb5e21debb5e21debb5e2194eff68d9923e4b59d139df39d139df39d139df39d139df39d139df39d139df39d139df39d139df3659cb30faaeb4a5a33e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8322620e152e86ceb1debb5e21debb5e21debb5e21debb5e21debb5e21debb5e21debb5e21debb5e21a88687924f83f43c9d139df39d139df39d139df39d139df39d139df39d139df39d139df39d139df32c1f6e943c994d7533e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff83e874d23940c3e8f5debb5e21debb5e21debb5e21debb5e21debb5e21debb5e21debb5e21debb5e21498a6f279d139df39d139df39d139df39d139df39d139df39d139df39d139df39d139df39d139df3e7076c9333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff83a9be15bcdebb5e21debb5e21debb5e21debb5e21debb5e21debb5e21debb5e21debb5e21debb5e2194eff68d9d139df39d139df39d139df39d139df39d139df39d139df39d139df39d139df39d139df3659cb30f33e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8322620e15debb5e21debb5e21debb5e21debb5e21debb5e21debb5e21debb5e21debb5e21debb5e21a886879235c3744635c3744635c3744635c3744635c3744635c3744635c3744635c3744635c37446451c735a6f47de466f47de466f47de466f47de466f47de466f47de466f47de466f47de466f47de46dc936a0b26c11c5b26c11c5b26c11c5b26c11c5b26c11c5b26c11c5b26c11c5b26c11c5b26c11c5baabbd26a
+  inputWave:
+    size: {x: 10, y: 3, z: 10}
+    array:
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+--- !u!1 &3630769618850449729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 561215955707244444}
+  - component: {fileID: 1752510123968835174}
+  m_Layer: 0
+  m_Name: ' road4'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &561215955707244444
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3630769618850449729}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.0966134, y: -2.6374397, z: -6.394293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6830144619264813515}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1752510123968835174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3630769618850449729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de41b0ea8c960b46ad14f22f2fb0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockRepo: {fileID: 0}
+  groupsWeights:
+  - hash: 445671445
+    overridWeight: 0
+    Weight: 1
+  - hash: -11287667
+    overridWeight: 0
+    Weight: 1
+  - hash: -1966747463
+    overridWeight: 0
+    Weight: 1
+  boundarySettings:
+    groupsBoundary:
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 
+    levelBoundary:
+    - {fileID: 381816791725339747}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 8759716593779795942}
+    - {fileID: 0}
+    - {fileID: 2518436493486774148}
+  useMutliThreadedSolver: 0
+  selection:
+    m_Position: {x: 0, y: 0, z: -1}
+    m_Size: {x: 1, y: 1, z: 1}
+  levelData:
+    position: {x: 0, y: 0, z: -3}
+    blocks:
+      size: {x: 10, y: 3, z: 3}
+      array: 4f83f43c659cb30fa79b7d970ed74f2a9d139df3659cb30fc37c287f6d54e205562a764ca79b7d973c994d7522620e152d65a8ec83a2537c33e2ff8322620e15c37c287fab7c47a69ecaf67e2d65a8ec40c3e8f5a886879244fc933f894c6b1cdebb5e21a8868792c37c287ff96b6724da40d88644fc933f9d139df32c1f6e94562a764c9923e4b5e7076c93451c735a6d54e2054f83f43c2c1f6e943caf775933e2ff83e874d2399ecaf67eaaeb4a5aa9be15bcdc936a0bab7c47a63c994d75e874d23903d5bb75debb5e21498a6f27da40d8862e86ceb194eff68daabbd26af96b672440c3e8f5498a6f2702c7296ae7076c930ed74f2a659cb30f9923e4b52c1f6e943caf77594f83f43ce7076c9335c3744635c37446a9be15bc83a2537c22620e15aaeb4a5ae874d23903d5bb753c994d75a9be15bc6f47de466f47de4694eff68d894c6b1ca88687922e86ceb1498a6f2702c7296a40c3e8f594eff68d26c11c5b26c11c5b
+  inputWave:
+    size: {x: 10, y: 3, z: 3}
+    array:
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+--- !u!1 &3667441476650351948
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 35659805281049810}
+  - component: {fileID: 8214749280129665187}
+  m_Layer: 0
+  m_Name: ' road1'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &35659805281049810
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667441476650351948}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.0966134, y: -2.6374397, z: -6.394293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6830144619264813515}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8214749280129665187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667441476650351948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de41b0ea8c960b46ad14f22f2fb0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockRepo: {fileID: 0}
+  groupsWeights:
+  - hash: 445671445
+    overridWeight: 0
+    Weight: 1
+  - hash: -11287667
+    overridWeight: 0
+    Weight: 1
+  - hash: -1966747463
+    overridWeight: 0
+    Weight: 1
+  boundarySettings:
+    groupsBoundary:
+    - groups: 
+    - groups: 
+    - groups: 
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 
+    levelBoundary:
+    - {fileID: 1428232493158630686}
+    - {fileID: 0}
+    - {fileID: 381816791725339747}
+    - {fileID: 2518436493486774148}
+    - {fileID: 0}
+    - {fileID: 5605122344810914369}
+  useMutliThreadedSolver: 0
+  selection:
+    m_Position: {x: -2, y: 1, z: 1}
+    m_Size: {x: 1, y: 1, z: 3}
+  levelData:
+    position: {x: -3, y: 0, z: 0}
+    blocks:
+      size: {x: 3, y: 3, z: 5}
+      array: 9923e4b52c1f6e94562a764caaeb4a5ae874d2399ecaf67e2e86ceb1498a6f27da40d8869923e4b59d139df3659cb30faaeb4a5a33e2ff8322620e152e86ceb1debb5e21a88687929923e4b59d139df32c1f6e94aaeb4a5a33e2ff83e874d2392e86ceb1debb5e21498a6f274f83f43c9d139df3e7076c933c994d7533e2ff83a9be15bc40c3e8f5debb5e2194eff68d0ed74f2ae7076c93451c735a83a2537ca9be15bcdc936a0b894c6b1c94eff68daabbd26a
+  inputWave:
+    size: {x: 3, y: 3, z: 5}
+    array:
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+--- !u!1 &3706187353741619423
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9031162996763548752}
+  m_Layer: 0
+  m_Name: Bigroom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9031162996763548752
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3706187353741619423}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 11.879372, y: 24.757448, z: -3.8958883}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8423291896665802057}
+  - {fileID: 4826493747325497770}
+  - {fileID: 2404739265088175947}
+  m_Father: {fileID: 4908425944067860940}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4171901135155782716
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4908425944067860940}
+  m_Layer: 0
+  m_Name: testmap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4908425944067860940
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4171901135155782716}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.782758, y: -22.120008, z: 10.290181}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6830144619264813515}
+  - {fileID: 9031162996763548752}
+  - {fileID: 5828541576493058753}
+  - {fileID: 8596588970482401806}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4214321654587253800
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6958048349679705953}
+  - component: {fileID: 881438052819604278}
+  m_Layer: 0
+  m_Name: ' road3'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6958048349679705953
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4214321654587253800}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.0966134, y: -2.6374397, z: -6.394293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6830144619264813515}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &881438052819604278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4214321654587253800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de41b0ea8c960b46ad14f22f2fb0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockRepo: {fileID: 0}
+  groupsWeights:
+  - hash: 445671445
+    overridWeight: 0
+    Weight: 1
+  - hash: -11287667
+    overridWeight: 0
+    Weight: 1
+  - hash: -1966747463
+    overridWeight: 0
+    Weight: 1
+  boundarySettings:
+    groupsBoundary:
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    - groups: 
+    levelBoundary:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 5605122344810914369}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1939023901756169705}
+  useMutliThreadedSolver: 0
+  selection:
+    m_Position: {x: -1, y: 0, z: 12}
+    m_Size: {x: 1, y: 1, z: 1}
+  levelData:
+    position: {x: -3, y: 0, z: 10}
+    blocks:
+      size: {x: 3, y: 3, z: 7}
+      array: 94eff68daabbd26aa79b7d97c37c287fc37c287f2d65a8ecc37c287fc37c287f44fc933f498a6f27da40d8866d54e205c37c287fc37c287fab7c47a6c37c287fc37c287ff96b6724894c6b1ca88687929923e4b5c37c287fc37c287faaeb4a5ac37c287fc37c287f2e86ceb144fc933faabbd26aa79b7d97c37c287fc37c287f2d65a8ecc37c287fc37c287f44fc933f6d54e2053caf77593caf7759ab7c47a603d5bb7503d5bb75f96b672402c7296a02c7296a4f83f43ce7076c930ed74f2a3c994d75a9be15bc83a2537c40c3e8f594eff68d894c6b1c35c37446451c735a9923e4b56f47de46dc936a0baaeb4a5a26c11c5baabbd26a2e86ceb1
+  inputWave:
+    size: {x: 3, y: 3, z: 7}
+    array:
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+--- !u!1 &4232854540843126048
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1373077382123624210}
+  - component: {fileID: 6924403863818821134}
+  m_Layer: 0
+  m_Name: ' road11'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1373077382123624210
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4232854540843126048}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.0966134, y: -2.6374397, z: -6.394293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6830144619264813515}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6924403863818821134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4232854540843126048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de41b0ea8c960b46ad14f22f2fb0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockRepo: {fileID: 0}
+  groupsWeights:
+  - hash: 445671445
+    overridWeight: 0
+    Weight: 1
+  - hash: -11287667
+    overridWeight: 0
+    Weight: 1
+  - hash: -1966747463
+    overridWeight: 0
+    Weight: 1
+  boundarySettings:
+    groupsBoundary:
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    - groups: 
+    levelBoundary:
+    - {fileID: 2722667913627580040}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 7019656739879466539}
+  useMutliThreadedSolver: 0
+  selection:
+    m_Position: {x: 22, y: 0, z: -3}
+    m_Size: {x: 1, y: 1, z: 1}
+  levelData:
+    position: {x: 22, y: 0, z: -3}
+    blocks:
+      size: {x: 3, y: 3, z: 10}
+      array: 0ed74f2ae7076c93451c735a83a2537ca9be15bcdc936a0b894c6b1c94eff68daabbd26a9923e4b52c1f6e943caf7759aaeb4a5ae874d23903d5bb752e86ceb1498a6f2702c7296aa79b7d9735c374460ed74f2a2d65a8ec6f47de4683a2537c44fc933f26c11c5b894c6b1c6d54e205562a764ca79b7d97ab7c47a69ecaf67e2d65a8ecf96b6724da40d88644fc933f4f83f43c659cb30f6d54e2053c994d7522620e15ab7c47a640c3e8f5a8868792f96b672435c37446451c735aa79b7d976f47de46dc936a0b2d65a8ec26c11c5baabbd26a44fc933fc37c287f6d54e2053caf7759c37c287fab7c47a603d5bb75c37c287ff96b672402c7296a3caf77594f83f43ce7076c9303d5bb753c994d75a9be15bc02c7296a40c3e8f594eff68d35c374460ed74f2a659cb30f6f47de4683a2537c22620e1526c11c5b894c6b1ca8868792562a764c9923e4b52c1f6e949ecaf67eaaeb4a5ae874d239da40d8862e86ceb1498a6f27
+  inputWave:
+    size: {x: 3, y: 3, z: 10}
+    array:
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+--- !u!1 &4314679866447304074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1433384272180415900}
+  - component: {fileID: 917725908670909826}
+  m_Layer: 0
+  m_Name: ' road15'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1433384272180415900
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4314679866447304074}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.0966134, y: -2.6374397, z: -6.394293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6830144619264813515}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &917725908670909826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4314679866447304074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de41b0ea8c960b46ad14f22f2fb0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockRepo: {fileID: 0}
+  groupsWeights:
+  - hash: 445671445
+    overridWeight: 0
+    Weight: 1
+  - hash: -11287667
+    overridWeight: 0
+    Weight: 1
+  - hash: -1966747463
+    overridWeight: 0
+    Weight: 1
+  boundarySettings:
+    groupsBoundary:
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    levelBoundary:
+    - {fileID: 7730352624535479990}
+    - {fileID: 0}
+    - {fileID: 3453111113878721274}
+    - {fileID: 1939023901756169705}
+    - {fileID: 0}
+    - {fileID: 0}
+  useMutliThreadedSolver: 0
+  selection:
+    m_Position: {x: -6, y: 0, z: 17}
+    m_Size: {x: 1, y: 1, z: 1}
+  levelData:
+    position: {x: -10, y: 0, z: 17}
+    blocks:
+      size: {x: 7, y: 3, z: 3}
+      array: 0ed74f2ae7076c9335c3744635c374460ed74f2a659cb30f6d54e20583a2537ca9be15bc6f47de466f47de4683a2537c22620e15ab7c47a6894c6b1c94eff68d26c11c5b26c11c5b894c6b1ca8868792f96b67249923e4b5659cb30f6d54e205562a764c9923e4b52c1f6e944f83f43caaeb4a5a22620e15ab7c47a69ecaf67eaaeb4a5ae874d2393c994d752e86ceb1a8868792f96b6724da40d8862e86ceb1498a6f2740c3e8f5a79b7d97451c735aa79b7d97451c735aa79b7d9735c374460ed74f2a2d65a8ecdc936a0b2d65a8ecdc936a0b2d65a8ec6f47de4683a2537c44fc933faabbd26a44fc933faabbd26a44fc933f26c11c5b894c6b1c
+  inputWave:
+    size: {x: 7, y: 3, z: 3}
+    array:
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+--- !u!1 &4606927686848904446
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3455269472901005052}
+  - component: {fileID: 1795054810082292409}
+  m_Layer: 0
+  m_Name: corner9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3455269472901005052
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4606927686848904446}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8596588970482401806}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1795054810082292409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4606927686848904446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de41b0ea8c960b46ad14f22f2fb0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockRepo: {fileID: 0}
+  groupsWeights:
+  - hash: 445671445
+    overridWeight: 0
+    Weight: 1
+  - hash: -11287667
+    overridWeight: 0
+    Weight: 1
+  - hash: -1966747463
+    overridWeight: 0
+    Weight: 1
+  boundarySettings:
+    groupsBoundary:
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    levelBoundary:
+    - {fileID: 6953702874611584090}
+    - {fileID: 0}
+    - {fileID: 1696278870004413235}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  useMutliThreadedSolver: 0
+  selection:
+    m_Position: {x: 22, y: 0, z: 17}
+    m_Size: {x: 1, y: 1, z: 1}
+  levelData:
+    position: {x: 22, y: 0, z: 17}
+    blocks:
+      size: {x: 3, y: 3, z: 3}
+      array: 35c374460ed74f2a659cb30f6f47de4683a2537c22620e1526c11c5b894c6b1ca88687923caf77594f83f43c2c1f6e9403d5bb753c994d75e874d23902c7296a40c3e8f5498a6f270ed74f2ae7076c9335c3744683a2537ca9be15bc6f47de46894c6b1c94eff68d26c11c5b
+  inputWave:
+    size: {x: 3, y: 3, z: 3}
+    array:
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+--- !u!1 &4667473663853635524
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8822523722327604901}
+  - component: {fileID: 1939023901756169705}
+  m_Layer: 0
+  m_Name: corner1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8822523722327604901
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4667473663853635524}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8596588970482401806}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1939023901756169705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4667473663853635524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de41b0ea8c960b46ad14f22f2fb0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockRepo: {fileID: 0}
+  groupsWeights:
+  - hash: 445671445
+    overridWeight: 0
+    Weight: 1
+  - hash: -11287667
+    overridWeight: 0
+    Weight: 1
+  - hash: -1966747463
+    overridWeight: 0
+    Weight: 1
+  boundarySettings:
+    groupsBoundary:
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    levelBoundary:
+    - {fileID: 917725908670909826}
+    - {fileID: 0}
+    - {fileID: 881438052819604278}
+    - {fileID: 7884140285483729875}
+    - {fileID: 0}
+    - {fileID: 0}
+  useMutliThreadedSolver: 0
+  selection:
+    m_Position: {x: -2, y: 1, z: 18}
+    m_Size: {x: 1, y: 1, z: 1}
+  levelData:
+    position: {x: -3, y: 0, z: 17}
+    blocks:
+      size: {x: 3, y: 3, z: 3}
+      array: 9d139df39d139df39d139df333e2ff8333e2ff8333e2ff83debb5e21debb5e21debb5e210ed74f2a9d139df39d139df383a2537c33e2ff8333e2ff83894c6b1cdebb5e21debb5e21a79b7d9735c3744635c374462d65a8ec6f47de466f47de4644fc933f26c11c5b26c11c5b
+  inputWave:
+    size: {x: 3, y: 3, z: 3}
+    array:
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+--- !u!1 &4907118610221682739
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4941332548180542671}
+  - component: {fileID: 4306195878076319830}
+  m_Layer: 0
+  m_Name: ' road13'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4941332548180542671
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4907118610221682739}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.0966134, y: -2.6374397, z: -6.394293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6830144619264813515}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4306195878076319830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4907118610221682739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de41b0ea8c960b46ad14f22f2fb0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockRepo: {fileID: 0}
+  groupsWeights:
+  - hash: 445671445
+    overridWeight: 0
+    Weight: 1
+  - hash: -11287667
+    overridWeight: 0
+    Weight: 1
+  - hash: -1966747463
+    overridWeight: 0
+    Weight: 1
+  boundarySettings:
+    groupsBoundary:
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    levelBoundary:
+    - {fileID: 1939697046437340062}
+    - {fileID: 0}
+    - {fileID: 2722667913627580040}
+    - {fileID: 7019656739879466539}
+    - {fileID: 0}
+    - {fileID: 0}
+  useMutliThreadedSolver: 0
+  selection:
+    m_Position: {x: 15, y: 0, z: 7}
+    m_Size: {x: 1, y: 1, z: 1}
+  levelData:
+    position: {x: 13, y: 0, z: 7}
+    blocks:
+      size: {x: 9, y: 3, z: 3}
+      array: e7076c9335c374460ed74f2a2c1f6e94562a764ca79b7d970ed74f2a9d139df3659cb30fa9be15bc6f47de4683a2537ce874d2399ecaf67e2d65a8ec83a2537c33e2ff8322620e1594eff68d26c11c5b894c6b1c498a6f27da40d88644fc933f894c6b1cdebb5e21a8868792659cb30f6d54e2054f83f43ce7076c93451c735ac37c287f9923e4b59d139df32c1f6e9422620e15ab7c47a63c994d75a9be15bcdc936a0bc37c287faaeb4a5a33e2ff83e874d239a8868792f96b672440c3e8f594eff68daabbd26ac37c287f2e86ceb1debb5e21498a6f27659cb30f9923e4b5e7076c93451c735a6d54e205562a764ca79b7d9735c3744635c3744622620e15aaeb4a5aa9be15bcdc936a0bab7c47a69ecaf67e2d65a8ec6f47de466f47de46a88687922e86ceb194eff68daabbd26af96b6724da40d88644fc933f26c11c5b26c11c5b
+  inputWave:
+    size: {x: 9, y: 3, z: 3}
+    array:
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+--- !u!1 &5329479670520116046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8596588970482401806}
+  m_Layer: 0
+  m_Name: Corner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8596588970482401806
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5329479670520116046}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.782758, y: 22.120008, z: -10.290181}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8822523722327604901}
+  - {fileID: 8075791103755122310}
+  - {fileID: 8781144380255053182}
+  - {fileID: 1968675966503721223}
+  - {fileID: 3799683367403013252}
+  - {fileID: 4108279649416039571}
+  - {fileID: 7332296476554762937}
+  - {fileID: 8815684012192113136}
+  - {fileID: 3455269472901005052}
+  m_Father: {fileID: 4908425944067860940}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5343344401652297734
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 340325625300448974}
+  - component: {fileID: 1428232493158630686}
+  m_Layer: 0
+  m_Name: room1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &340325625300448974
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5343344401652297734}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.276613, y: -2.6374397, z: -6.394293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5828541576493058753}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1428232493158630686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5343344401652297734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de41b0ea8c960b46ad14f22f2fb0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockRepo: {fileID: 0}
+  groupsWeights:
+  - hash: 445671445
+    overridWeight: 0
+    Weight: 1
+  - hash: -11287667
+    overridWeight: 0
+    Weight: 1
+  - hash: -1966747463
+    overridWeight: 0
+    Weight: 1
+  boundarySettings:
+    groupsBoundary:
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    levelBoundary:
+    - {fileID: 9041653573300674772}
+    - {fileID: 0}
+    - {fileID: 2282899989928023952}
+    - {fileID: 8214749280129665187}
+    - {fileID: 0}
+    - {fileID: 0}
+  useMutliThreadedSolver: 0
+  selection:
+    m_Position: {x: -9, y: 1, z: 1}
+    m_Size: {x: 5, y: 1, z: 3}
+  levelData:
+    position: {x: -10, y: 0, z: 0}
+    blocks:
+      size: {x: 7, y: 3, z: 5}
+      array: 4f83f43c2c1f6e943caf77593caf77594f83f43c2c1f6e94562a764c3c994d75e874d23903d5bb7503d5bb753c994d75e874d2399ecaf67e40c3e8f5498a6f2702c7296a02c7296a40c3e8f5498a6f27da40d8860ed74f2a9d139df39d139df39d139df39d139df39d139df3659cb30f83a2537c33e2ff8333e2ff8333e2ff8333e2ff8333e2ff8322620e15894c6b1cdebb5e21debb5e21debb5e21debb5e21debb5e21a88687929923e4b59d139df39d139df39d139df39d139df39d139df3659cb30faaeb4a5a33e2ff8333e2ff8333e2ff8333e2ff8333e2ff8322620e152e86ceb1debb5e21debb5e21debb5e21debb5e21debb5e21a88687929923e4b59d139df39d139df39d139df39d139df39d139df32c1f6e94aaeb4a5a33e2ff8333e2ff8333e2ff8333e2ff8333e2ff83e874d2392e86ceb1debb5e21debb5e21debb5e21debb5e21debb5e21498a6f27a79b7d9735c3744635c3744635c3744635c3744635c3744635c374462d65a8ec6f47de466f47de466f47de466f47de466f47de466f47de4644fc933f26c11c5b26c11c5b26c11c5b26c11c5b26c11c5b26c11c5b
+  inputWave:
+    size: {x: 7, y: 3, z: 5}
+    array:
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+--- !u!1 &5790480008460149768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4108279649416039571}
+  - component: {fileID: 1939697046437340062}
+  m_Layer: 0
+  m_Name: corner6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4108279649416039571
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5790480008460149768}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8596588970482401806}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1939697046437340062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5790480008460149768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de41b0ea8c960b46ad14f22f2fb0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockRepo: {fileID: 0}
+  groupsWeights:
+  - hash: 445671445
+    overridWeight: 0
+    Weight: 1
+  - hash: -11287667
+    overridWeight: 0
+    Weight: 1
+  - hash: -1966747463
+    overridWeight: 0
+    Weight: 1
+  boundarySettings:
+    groupsBoundary:
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 
+    levelBoundary:
+    - {fileID: 2518436493486774148}
+    - {fileID: 0}
+    - {fileID: 3442601268687686281}
+    - {fileID: 4306195878076319830}
+    - {fileID: 0}
+    - {fileID: 2936601452851406583}
+  useMutliThreadedSolver: 0
+  selection:
+    m_Position: {x: 12, y: 0, z: 7}
+    m_Size: {x: 1, y: 1, z: 1}
+  levelData:
+    position: {x: 10, y: 0, z: 7}
+    blocks:
+      size: {x: 3, y: 3, z: 3}
+      array: 6d54e2054f83f43c659cb30fab7c47a63c994d7522620e15f96b672440c3e8f5a88687929923e4b59d139df32c1f6e94aaeb4a5a33e2ff83e874d2392e86ceb1debb5e21498a6f274f83f43ce7076c9335c374463c994d75a9be15bc6f47de4640c3e8f594eff68d26c11c5b
+  inputWave:
+    size: {x: 3, y: 3, z: 3}
+    array:
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+--- !u!1 &5941137547661210970
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2404739265088175947}
+  - component: {fileID: 2518436493486774148}
+  m_Layer: 0
+  m_Name: bigroom3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2404739265088175947
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5941137547661210970}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.0966134, y: -2.6374397, z: -6.394293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9031162996763548752}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2518436493486774148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5941137547661210970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de41b0ea8c960b46ad14f22f2fb0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockRepo: {fileID: 0}
+  groupsWeights:
+  - hash: 445671445
+    overridWeight: 0
+    Weight: 1
+  - hash: -11287667
+    overridWeight: 0
+    Weight: 1
+  - hash: -1966747463
+    overridWeight: 0
+    Weight: 1
+  boundarySettings:
+    groupsBoundary:
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 
+    levelBoundary:
+    - {fileID: 5605122344810914369}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1939697046437340062}
+    - {fileID: 0}
+    - {fileID: 7884140285483729875}
+  useMutliThreadedSolver: 0
+  selection:
+    m_Position: {x: 1, y: 1, z: 6}
+    m_Size: {x: 8, y: 1, z: 3}
+  levelData:
+    position: {x: 0, y: 0, z: 0}
+    blocks:
+      size: {x: 10, y: 3, z: 10}
+      array: 3caf77594f83f43c2c1f6e944f83f43c2c1f6e944f83f43c2c1f6e943caf77593caf77593caf775903d5bb753c994d75e874d2393c994d75e874d2393c994d75e874d23903d5bb7503d5bb7503d5bb7502c7296a40c3e8f5498a6f2740c3e8f5498a6f2740c3e8f5498a6f2702c7296a02c7296a02c7296a0ed74f2a9d139df39d139df39d139df39d139df39d139df39d139df39d139df39d139df3e7076c9383a2537c33e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff83a9be15bc894c6b1cdebb5e21debb5e21debb5e21debb5e21debb5e21debb5e21debb5e21debb5e2194eff68d9923e4b59d139df39d139df39d139df39d139df39d139df39d139df39d139df39d139df32c1f6e94aaeb4a5a33e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff83e874d2392e86ceb1debb5e21debb5e21debb5e21debb5e21debb5e21debb5e21debb5e21debb5e21498a6f279923e4b59d139df39d139df39d139df39d139df39d139df39d139df39d139df39d139df3e7076c93aaeb4a5a33e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff83a9be15bc2e86ceb1debb5e21debb5e21debb5e21debb5e21debb5e21debb5e21debb5e21debb5e2194eff68d9923e4b5e7076c9335c374460ed74f2ae7076c930ed74f2ae7076c930ed74f2ae7076c93451c735aaaeb4a5aa9be15bc6f47de4683a2537ca9be15bc83a2537ca9be15bc83a2537ca9be15bcdc936a0b2e86ceb194eff68d26c11c5b894c6b1c94eff68d894c6b1c94eff68d894c6b1c94eff68daabbd26a9923e4b52c1f6e943caf77594f83f43c2c1f6e944f83f43c2c1f6e944f83f43c2c1f6e943caf7759aaeb4a5ae874d23903d5bb753c994d75e874d2393c994d75e874d2393c994d75e874d23903d5bb752e86ceb1498a6f2702c7296a40c3e8f5498a6f2740c3e8f5498a6f2740c3e8f5498a6f2702c7296a4f83f43c9d139df39d139df39d139df39d139df39d139df39d139df39d139df39d139df3e7076c933c994d7533e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff83a9be15bc40c3e8f5debb5e21debb5e21debb5e21debb5e21debb5e21debb5e21debb5e21debb5e2194eff68d0ed74f2a9d139df39d139df39d139df39d139df39d139df39d139df39d139df39d139df32c1f6e9483a2537c33e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff83e874d239894c6b1cdebb5e21debb5e21debb5e21debb5e21debb5e21debb5e21debb5e21debb5e21498a6f279923e4b59d139df39d139df39d139df39d139df39d139df39d139df39d139df39d139df3e7076c93aaeb4a5a33e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff8333e2ff83a9be15bc2e86ceb1debb5e21debb5e21debb5e21debb5e21debb5e21debb5e21debb5e21debb5e2194eff68da79b7d9735c3744635c3744635c3744635c3744635c3744635c3744635c3744635c37446451c735a2d65a8ec6f47de466f47de466f47de466f47de466f47de466f47de466f47de466f47de46dc936a0b44fc933f26c11c5b26c11c5b26c11c5b26c11c5b26c11c5b26c11c5b26c11c5b26c11c5baabbd26a
+  inputWave:
+    size: {x: 10, y: 3, z: 10}
+    array:
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+--- !u!1 &6408319703947543975
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8815684012192113136}
+  - component: {fileID: 7019656739879466539}
+  m_Layer: 0
+  m_Name: corner8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8815684012192113136
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6408319703947543975}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8596588970482401806}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7019656739879466539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6408319703947543975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de41b0ea8c960b46ad14f22f2fb0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockRepo: {fileID: 0}
+  groupsWeights:
+  - hash: 445671445
+    overridWeight: 0
+    Weight: 1
+  - hash: -11287667
+    overridWeight: 0
+    Weight: 1
+  - hash: -1966747463
+    overridWeight: 0
+    Weight: 1
+  boundarySettings:
+    groupsBoundary:
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    - groups: 
+    levelBoundary:
+    - {fileID: 4306195878076319830}
+    - {fileID: 0}
+    - {fileID: 6924403863818821134}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1696278870004413235}
+  useMutliThreadedSolver: 0
+  selection:
+    m_Position: {x: 22, y: 0, z: 7}
+    m_Size: {x: 1, y: 1, z: 1}
+  levelData:
+    position: {x: 22, y: 0, z: 7}
+    blocks:
+      size: {x: 3, y: 3, z: 3}
+      array: 659cb30f6d54e2054f83f43c22620e15ab7c47a63c994d75a8868792f96b672440c3e8f52c1f6e944f83f43ce7076c93e874d2393c994d75a9be15bc498a6f2740c3e8f594eff68d35c3744635c37446451c735a6f47de466f47de46dc936a0b26c11c5b26c11c5baabbd26a
+  inputWave:
+    size: {x: 3, y: 3, z: 3}
+    array:
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+--- !u!1 &6602192651542932660
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 839280554183484961}
+  - component: {fileID: 315154194020411298}
+  m_Layer: 0
+  m_Name: ' road8'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &839280554183484961
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6602192651542932660}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.0966134, y: -2.6374397, z: -6.394293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6830144619264813515}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &315154194020411298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6602192651542932660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de41b0ea8c960b46ad14f22f2fb0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockRepo: {fileID: 0}
+  groupsWeights:
+  - hash: 445671445
+    overridWeight: 0
+    Weight: 1
+  - hash: -11287667
+    overridWeight: 0
+    Weight: 1
+  - hash: -1966747463
+    overridWeight: 0
+    Weight: 1
+  boundarySettings:
+    groupsBoundary:
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    - groups: 
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 
+    levelBoundary:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 6249040712363267535}
+    - {fileID: 3453111113878721274}
+    - {fileID: 0}
+    - {fileID: 7730352624535479990}
+  useMutliThreadedSolver: 0
+  selection:
+    m_Position: {x: -12, y: 1, z: 10}
+    m_Size: {x: 1, y: 1, z: 4}
+  levelData:
+    position: {x: -13, y: 0, z: 10}
+    blocks:
+      size: {x: 3, y: 3, z: 7}
+      array: 6d54e2054f83f43c2c1f6e94ab7c47a63c994d75e874d239f96b672440c3e8f5498a6f279923e4b59d139df39d139df3aaeb4a5a33e2ff8333e2ff832e86ceb1debb5e21debb5e219923e4b59d139df39d139df3aaeb4a5a33e2ff8333e2ff832e86ceb1debb5e21debb5e219923e4b59d139df39d139df3aaeb4a5a33e2ff8333e2ff832e86ceb1debb5e21debb5e219923e4b59d139df3e7076c93aaeb4a5a33e2ff83a9be15bc2e86ceb1debb5e2194eff68d000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  inputWave:
+    size: {x: 3, y: 3, z: 7}
+    array:
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+--- !u!1 &6694044125677717332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4853737628742096087}
+  - component: {fileID: 6249040712363267535}
+  m_Layer: 0
+  m_Name: ' road7'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4853737628742096087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6694044125677717332}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.0966134, y: -2.6374397, z: -6.394293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6830144619264813515}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6249040712363267535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6694044125677717332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de41b0ea8c960b46ad14f22f2fb0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockRepo: {fileID: 0}
+  groupsWeights:
+  - hash: 445671445
+    overridWeight: 0
+    Weight: 1
+  - hash: -11287667
+    overridWeight: 0
+    Weight: 1
+  - hash: -1966747463
+    overridWeight: 0
+    Weight: 1
+  boundarySettings:
+    groupsBoundary:
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    - groups: 
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 
+    levelBoundary:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 9041653573300674772}
+    - {fileID: 181212727728751771}
+    - {fileID: 0}
+    - {fileID: 315154194020411298}
+  useMutliThreadedSolver: 0
+  selection:
+    m_Position: {x: -12, y: 1, z: 5}
+    m_Size: {x: 1, y: 1, z: 4}
+  levelData:
+    position: {x: -13, y: 0, z: 5}
+    blocks:
+      size: {x: 3, y: 3, z: 5}
+      array: 6d54e205562a764c6d54e205ab7c47a69ecaf67eab7c47a6f96b6724da40d886f96b67249923e4b52c1f6e944f83f43caaeb4a5ae874d2393c994d752e86ceb1498a6f2740c3e8f5a79b7d970ed74f2a9d139df32d65a8ec83a2537c33e2ff8344fc933f894c6b1cdebb5e216d54e2054f83f43c9d139df3ab7c47a63c994d7533e2ff83f96b672440c3e8f5debb5e21a79b7d970ed74f2ae7076c932d65a8ec83a2537ca9be15bc44fc933f894c6b1c94eff68d
+  inputWave:
+    size: {x: 3, y: 3, z: 5}
+    array:
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+--- !u!1 &6896899109545039215
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1968675966503721223}
+  - component: {fileID: 520357870802996124}
+  m_Layer: 0
+  m_Name: corner4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1968675966503721223
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6896899109545039215}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8596588970482401806}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &520357870802996124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6896899109545039215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de41b0ea8c960b46ad14f22f2fb0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockRepo: {fileID: 0}
+  groupsWeights:
+  - hash: 445671445
+    overridWeight: 0
+    Weight: 1
+  - hash: -11287667
+    overridWeight: 0
+    Weight: 1
+  - hash: -1966747463
+    overridWeight: 0
+    Weight: 1
+  boundarySettings:
+    groupsBoundary:
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 
+    levelBoundary:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 2282899989928023952}
+    - {fileID: 0}
+    - {fileID: 9041653573300674772}
+  useMutliThreadedSolver: 0
+  selection:
+    m_Position: {x: -12, y: 1, z: -2}
+    m_Size: {x: 1, y: 1, z: 1}
+  levelData:
+    position: {x: -13, y: 0, z: -3}
+    blocks:
+      size: {x: 3, y: 3, z: 3}
+      array: 6d54e2053caf77593caf7759ab7c47a603d5bb7503d5bb75f96b672402c7296a02c7296a9923e4b59d139df3e7076c93aaeb4a5a33e2ff83a9be15bc2e86ceb1debb5e2194eff68da79b7d970ed74f2a659cb30f2d65a8ec83a2537c22620e1544fc933f894c6b1ca8868792
+  inputWave:
+    size: {x: 3, y: 3, z: 3}
+    array:
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+--- !u!1 &7264870754423988462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4375619100426570227}
+  - component: {fileID: 9041653573300674772}
+  m_Layer: 0
+  m_Name: ' road6'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4375619100426570227
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7264870754423988462}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.0966134, y: -2.6374397, z: -6.394293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6830144619264813515}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9041653573300674772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7264870754423988462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de41b0ea8c960b46ad14f22f2fb0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockRepo: {fileID: 0}
+  groupsWeights:
+  - hash: 445671445
+    overridWeight: 0
+    Weight: 1
+  - hash: -11287667
+    overridWeight: 0
+    Weight: 1
+  - hash: -1966747463
+    overridWeight: 0
+    Weight: 1
+  boundarySettings:
+    groupsBoundary:
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    - groups: 
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 
+    levelBoundary:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 520357870802996124}
+    - {fileID: 1428232493158630686}
+    - {fileID: 0}
+    - {fileID: 6249040712363267535}
+  useMutliThreadedSolver: 0
+  selection:
+    m_Position: {x: -12, y: 1, z: 1}
+    m_Size: {x: 1, y: 1, z: 4}
+  levelData:
+    position: {x: -13, y: 0, z: 0}
+    blocks:
+      size: {x: 3, y: 3, z: 5}
+      array: c37c287fa79b7d970ed74f2ac37c287f2d65a8ec83a2537cc37c287f44fc933f894c6b1c6d54e2053caf77594f83f43cab7c47a603d5bb753c994d75f96b672402c7296a40c3e8f59923e4b59d139df3e7076c93aaeb4a5a33e2ff83a9be15bc2e86ceb1debb5e2194eff68da79b7d970ed74f2a659cb30f2d65a8ec83a2537c22620e1544fc933f894c6b1ca8868792c37c287fa79b7d97451c735ac37c287f2d65a8ecdc936a0bc37c287f44fc933faabbd26a
+  inputWave:
+    size: {x: 3, y: 3, z: 5}
+    array:
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+--- !u!1 &7333834153450707621
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7998634292868467482}
+  - component: {fileID: 2282899989928023952}
+  m_Layer: 0
+  m_Name: ' road5'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7998634292868467482
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7333834153450707621}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.0966134, y: -2.6374397, z: -6.394293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6830144619264813515}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2282899989928023952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7333834153450707621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de41b0ea8c960b46ad14f22f2fb0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockRepo: {fileID: 0}
+  groupsWeights:
+  - hash: 445671445
+    overridWeight: 0
+    Weight: 1
+  - hash: -11287667
+    overridWeight: 0
+    Weight: 1
+  - hash: -1966747463
+    overridWeight: 0
+    Weight: 1
+  boundarySettings:
+    groupsBoundary:
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    - groups: 
+    levelBoundary:
+    - {fileID: 520357870802996124}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1428232493158630686}
+  useMutliThreadedSolver: 0
+  selection:
+    m_Position: {x: -9, y: 1, z: -2}
+    m_Size: {x: 5, y: 1, z: 1}
+  levelData:
+    position: {x: -10, y: 0, z: -3}
+    blocks:
+      size: {x: 7, y: 3, z: 3}
+      array: 3caf77593caf77593caf77593caf77593caf77593caf7759562a764c03d5bb7503d5bb7503d5bb7503d5bb7503d5bb7503d5bb759ecaf67e02c7296a02c7296a02c7296a02c7296a02c7296a02c7296ada40d8860ed74f2a9d139df39d139df39d139df39d139df39d139df3659cb30f83a2537c33e2ff8333e2ff8333e2ff8333e2ff8333e2ff8322620e15894c6b1cdebb5e21debb5e21debb5e21debb5e21debb5e21a88687929923e4b5e7076c9335c3744635c374460ed74f2ae7076c93451c735aaaeb4a5aa9be15bc6f47de466f47de4683a2537ca9be15bcdc936a0b2e86ceb194eff68d26c11c5b26c11c5b894c6b1c94eff68daabbd26a
+  inputWave:
+    size: {x: 7, y: 3, z: 3}
+    array:
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 1
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+--- !u!1 &7472544823341157714
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8102265813806260273}
+  - component: {fileID: 181212727728751771}
+  m_Layer: 0
+  m_Name: room2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8102265813806260273
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7472544823341157714}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.0966134, y: -2.6374397, z: -6.394293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5828541576493058753}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &181212727728751771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7472544823341157714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de41b0ea8c960b46ad14f22f2fb0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockRepo: {fileID: 0}
+  groupsWeights:
+  - hash: 445671445
+    overridWeight: 0
+    Weight: 1
+  - hash: -11287667
+    overridWeight: 0
+    Weight: 1
+  - hash: -1966747463
+    overridWeight: 0
+    Weight: 1
+  boundarySettings:
+    groupsBoundary:
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 
+    levelBoundary:
+    - {fileID: 6249040712363267535}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 5605122344810914369}
+    - {fileID: 0}
+    - {fileID: 3453111113878721274}
+  useMutliThreadedSolver: 0
+  selection:
+    m_Position: {x: -6, y: 0, z: 5}
+    m_Size: {x: 1, y: 1, z: 1}
+  levelData:
+    position: {x: -10, y: 0, z: 5}
+    blocks:
+      size: {x: 7, y: 3, z: 5}
+      array: 562a764c6d54e205562a764cc37c287f6d54e205562a764c6d54e2059ecaf67eab7c47a69ecaf67ec37c287fab7c47a69ecaf67eab7c47a6da40d886f96b6724da40d886c37c287ff96b6724da40d886f96b67242c1f6e944f83f43c2c1f6e943caf77594f83f43c659cb30f9923e4b5e874d2393c994d75e874d23903d5bb753c994d7522620e15aaeb4a5a498a6f2740c3e8f5498a6f2702c7296a40c3e8f5a88687922e86ceb19d139df39d139df39d139df3e7076c930ed74f2a2c1f6e944f83f43c33e2ff8333e2ff8333e2ff83a9be15bc83a2537ce874d2393c994d75debb5e21debb5e21debb5e2194eff68d894c6b1c498a6f2740c3e8f5e7076c9335c374460ed74f2a659cb30f9923e4b59d139df3e7076c93a9be15bc6f47de4683a2537c22620e15aaeb4a5a33e2ff83a9be15bc94eff68d26c11c5b894c6b1ca88687922e86ceb1debb5e2194eff68d451c735ac37c287fa79b7d97451c735aa79b7d9735c37446451c735adc936a0bc37c287f2d65a8ecdc936a0b2d65a8ec6f47de46dc936a0baabbd26ac37c287f44fc933faabbd26a44fc933f26c11c5baabbd26a
+  inputWave:
+    size: {x: 7, y: 3, z: 5}
+    array:
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+--- !u!1 &7645849286101646268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3719190958038623019}
+  - component: {fileID: 1696278870004413235}
+  m_Layer: 0
+  m_Name: ' road12'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3719190958038623019
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7645849286101646268}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.0966134, y: -2.6374397, z: -6.394293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6830144619264813515}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1696278870004413235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7645849286101646268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de41b0ea8c960b46ad14f22f2fb0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockRepo: {fileID: 0}
+  groupsWeights:
+  - hash: 445671445
+    overridWeight: 0
+    Weight: 1
+  - hash: -11287667
+    overridWeight: 0
+    Weight: 1
+  - hash: -1966747463
+    overridWeight: 0
+    Weight: 1
+  boundarySettings:
+    groupsBoundary:
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    - groups: 
+    levelBoundary:
+    - {fileID: 7243526207688675414}
+    - {fileID: 0}
+    - {fileID: 7019656739879466539}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1795054810082292409}
+  useMutliThreadedSolver: 0
+  selection:
+    m_Position: {x: 22, y: 0, z: 10}
+    m_Size: {x: 1, y: 1, z: 1}
+  levelData:
+    position: {x: 22, y: 0, z: 10}
+    blocks:
+      size: {x: 3, y: 3, z: 7}
+      array: 659cb30f9923e4b5e7076c9322620e15aaeb4a5aa9be15bca88687922e86ceb194eff68d451c735a9923e4b5659cb30fdc936a0baaeb4a5a22620e15aabbd26a2e86ceb1a88687926d54e2054f83f43c2c1f6e94ab7c47a63c994d75e874d239f96b672440c3e8f5498a6f27a79b7d970ed74f2a9d139df32d65a8ec83a2537c33e2ff8344fc933f894c6b1cdebb5e21562a764c9923e4b59d139df39ecaf67eaaeb4a5a33e2ff83da40d8862e86ceb1debb5e212c1f6e944f83f43c9d139df3e874d2393c994d7533e2ff83498a6f2740c3e8f5debb5e21e7076c9335c3744635c37446a9be15bc6f47de466f47de4694eff68d26c11c5b26c11c5b
+  inputWave:
+    size: {x: 3, y: 3, z: 7}
+    array:
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+--- !u!1 &8159024756943961335
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2538944934287152535}
+  - component: {fileID: 7243526207688675414}
+  m_Layer: 0
+  m_Name: room3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2538944934287152535
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8159024756943961335}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.0966134, y: -2.6374397, z: -6.394293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5828541576493058753}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7243526207688675414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8159024756943961335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de41b0ea8c960b46ad14f22f2fb0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockRepo: {fileID: 0}
+  groupsWeights:
+  - hash: 445671445
+    overridWeight: 0
+    Weight: 1
+  - hash: -11287667
+    overridWeight: 0
+    Weight: 1
+  - hash: -1966747463
+    overridWeight: 0
+    Weight: 1
+  boundarySettings:
+    groupsBoundary:
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 
+    levelBoundary:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1696278870004413235}
+    - {fileID: 0}
+    - {fileID: 6953702874611584090}
+  useMutliThreadedSolver: 0
+  selection:
+    m_Position: {x: 13, y: 0, z: 11}
+    m_Size: {x: 1, y: 1, z: 1}
+  levelData:
+    position: {x: 13, y: 0, z: 10}
+    blocks:
+      size: {x: 9, y: 3, z: 7}
+      array: c37c287fc37c287f6d54e2053caf77593caf77593caf7759562a764cc37c287f6d54e205c37c287fc37c287fab7c47a603d5bb7503d5bb7503d5bb759ecaf67ec37c287fab7c47a6c37c287fc37c287ff96b672402c7296a02c7296a02c7296ada40d886c37c287ff96b67246d54e2053caf77594f83f43c9d139df3e7076c9335c37446451c735ac37c287fa79b7d97ab7c47a603d5bb753c994d7533e2ff83a9be15bc6f47de46dc936a0bc37c287f2d65a8ecf96b672402c7296a40c3e8f5debb5e2194eff68d26c11c5baabbd26ac37c287f44fc933f9923e4b5e7076c930ed74f2ae7076c93451c735a6d54e205562a764c6d54e2053caf7759aaeb4a5aa9be15bc83a2537ca9be15bcdc936a0bab7c47a69ecaf67eab7c47a603d5bb752e86ceb194eff68d894c6b1c94eff68daabbd26af96b6724da40d886f96b672402c7296aa79b7d97451c735a9923e4b5659cb30fc37c287fa79b7d97451c735aa79b7d970ed74f2a2d65a8ecdc936a0baaeb4a5a22620e15c37c287f2d65a8ecdc936a0b2d65a8ec83a2537c44fc933faabbd26a2e86ceb1a8868792c37c287f44fc933faabbd26a44fc933f894c6b1c6d54e205562a764c9923e4b52c1f6e94562a764c6d54e2053caf7759562a764ca79b7d97ab7c47a69ecaf67eaaeb4a5ae874d2399ecaf67eab7c47a603d5bb759ecaf67e2d65a8ecf96b6724da40d8862e86ceb1498a6f27da40d886f96b672402c7296ada40d88644fc933f9923e4b52c1f6e944f83f43ce7076c93451c735a9923e4b59d139df3659cb30f6d54e205aaeb4a5ae874d2393c994d75a9be15bcdc936a0baaeb4a5a33e2ff8322620e15ab7c47a62e86ceb1498a6f2740c3e8f594eff68daabbd26a2e86ceb1debb5e21a8868792f96b6724a79b7d9735c374460ed74f2a659cb30f6d54e2054f83f43c9d139df32c1f6e944f83f43c2d65a8ec6f47de4683a2537c22620e15ab7c47a63c994d7533e2ff83e874d2393c994d7544fc933f26c11c5b894c6b1ca8868792f96b672440c3e8f5debb5e21498a6f2740c3e8f5
+  inputWave:
+    size: {x: 9, y: 3, z: 7}
+    array:
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+--- !u!1 &8446496733796018790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7332296476554762937}
+  - component: {fileID: 5978539941517373893}
+  m_Layer: 0
+  m_Name: corner7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7332296476554762937
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8446496733796018790}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8596588970482401806}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5978539941517373893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8446496733796018790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de41b0ea8c960b46ad14f22f2fb0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockRepo: {fileID: 0}
+  groupsWeights:
+  - hash: 445671445
+    overridWeight: 0
+    Weight: 1
+  - hash: -11287667
+    overridWeight: 0
+    Weight: 1
+  - hash: -1966747463
+    overridWeight: 0
+    Weight: 1
+  boundarySettings:
+    groupsBoundary:
+    - groups: 
+    - groups: 
+    - groups: 
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    levelBoundary:
+    - {fileID: 7884140285483729875}
+    - {fileID: 0}
+    - {fileID: 2936601452851406583}
+    - {fileID: 6953702874611584090}
+    - {fileID: 0}
+    - {fileID: 0}
+  useMutliThreadedSolver: 0
+  selection:
+    m_Position: {x: 12, y: 0, z: 19}
+    m_Size: {x: 1, y: 1, z: 1}
+  levelData:
+    position: {x: 10, y: 0, z: 17}
+    blocks:
+      size: {x: 3, y: 3, z: 3}
+      array: 35c374460ed74f2a9d139df36f47de4683a2537c33e2ff8326c11c5b894c6b1cdebb5e216d54e2054f83f43c9d139df3ab7c47a63c994d7533e2ff83f96b672440c3e8f5debb5e219923e4b5e7076c9335c37446aaeb4a5aa9be15bc6f47de462e86ceb194eff68d26c11c5b
+  inputWave:
+    size: {x: 3, y: 3, z: 3}
+    array:
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+--- !u!1 &8612815673438599024
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6830144619264813515}
+  m_Layer: 0
+  m_Name: Road
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6830144619264813515
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8612815673438599024}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 11.879372, y: 24.757448, z: -3.8958883}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 35659805281049810}
+  - {fileID: 8899553488953510972}
+  - {fileID: 6958048349679705953}
+  - {fileID: 561215955707244444}
+  - {fileID: 7998634292868467482}
+  - {fileID: 4375619100426570227}
+  - {fileID: 4853737628742096087}
+  - {fileID: 839280554183484961}
+  - {fileID: 6505646298222247050}
+  - {fileID: 4165240267698390598}
+  - {fileID: 1373077382123624210}
+  - {fileID: 3719190958038623019}
+  - {fileID: 4941332548180542671}
+  - {fileID: 4125873098508241919}
+  - {fileID: 1433384272180415900}
+  m_Father: {fileID: 4908425944067860940}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8624429215799053053
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3799683367403013252}
+  - component: {fileID: 7730352624535479990}
+  m_Layer: 0
+  m_Name: corner5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3799683367403013252
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8624429215799053053}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8596588970482401806}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7730352624535479990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8624429215799053053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de41b0ea8c960b46ad14f22f2fb0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockRepo: {fileID: 0}
+  groupsWeights:
+  - hash: 445671445
+    overridWeight: 0
+    Weight: 1
+  - hash: -11287667
+    overridWeight: 0
+    Weight: 1
+  - hash: -1966747463
+    overridWeight: 0
+    Weight: 1
+  boundarySettings:
+    groupsBoundary:
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    - groups: 
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    levelBoundary:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 315154194020411298}
+    - {fileID: 917725908670909826}
+    - {fileID: 0}
+    - {fileID: 0}
+  useMutliThreadedSolver: 0
+  selection:
+    m_Position: {x: -12, y: 1, z: 17}
+    m_Size: {x: 1, y: 1, z: 3}
+  levelData:
+    position: {x: -13, y: 0, z: 17}
+    blocks:
+      size: {x: 3, y: 3, z: 3}
+      array: 6d54e2054f83f43c2c1f6e94ab7c47a63c994d75e874d239f96b672440c3e8f5498a6f279923e4b59d139df39d139df3aaeb4a5a33e2ff8333e2ff832e86ceb1debb5e21debb5e219923e4b59d139df39d139df3aaeb4a5a33e2ff8333e2ff832e86ceb1debb5e21debb5e21
+  inputWave:
+    size: {x: 3, y: 3, z: 3}
+    array:
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+--- !u!1 &9098909062801059474
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6505646298222247050}
+  - component: {fileID: 3442601268687686281}
+  m_Layer: 0
+  m_Name: ' road9'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6505646298222247050
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9098909062801059474}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.0966134, y: -2.6374397, z: -6.394293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6830144619264813515}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3442601268687686281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9098909062801059474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de41b0ea8c960b46ad14f22f2fb0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockRepo: {fileID: 0}
+  groupsWeights:
+  - hash: 445671445
+    overridWeight: 0
+    Weight: 1
+  - hash: -11287667
+    overridWeight: 0
+    Weight: 1
+  - hash: -1966747463
+    overridWeight: 0
+    Weight: 1
+  boundarySettings:
+    groupsBoundary:
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    - groups: 
+    - groups: 8dc353ff
+    - groups: 8dc353ff
+    - groups: 
+    levelBoundary:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 8759716593779795942}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1939697046437340062}
+  useMutliThreadedSolver: 0
+  selection:
+    m_Position: {x: 12, y: 0, z: 0}
+    m_Size: {x: 1, y: 1, z: 1}
+  levelData:
+    position: {x: 10, y: 0, z: 0}
+    blocks:
+      size: {x: 3, y: 3, z: 7}
+      array: a79b7d97451c735aa79b7d972d65a8ecdc936a0b2d65a8ec44fc933faabbd26a44fc933fc37c287fc37c287fc37c287fc37c287fc37c287fc37c287fc37c287fc37c287fc37c287f6d54e2053caf77593caf7759ab7c47a603d5bb7503d5bb75f96b672402c7296a02c7296a4f83f43ce7076c9335c374463c994d75a9be15bc6f47de4640c3e8f594eff68d26c11c5b0ed74f2a2c1f6e94562a764c83a2537ce874d2399ecaf67e894c6b1c498a6f27da40d886a79b7d9735c37446451c735a2d65a8ec6f47de46dc936a0b44fc933f26c11c5baabbd26a3caf77593caf7759562a764c03d5bb7503d5bb759ecaf67e02c7296a02c7296ada40d886
+  inputWave:
+    size: {x: 3, y: 3, z: 7}
+    array:
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
+    - groups: 2147483647
