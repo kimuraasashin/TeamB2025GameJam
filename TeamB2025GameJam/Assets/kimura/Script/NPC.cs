@@ -9,6 +9,7 @@ public class NPC : MonoBehaviour
     public int Possession;
     public NavMeshAgent agent;
     private Transform target;
+    private bool move = false; 
     //public LineRenderer lr;
 
     void Start()
@@ -37,6 +38,7 @@ public class NPC : MonoBehaviour
 
     void Update()
     {
+         move = true;
         if (target != null)
         {
             agent.SetDestination(target.position);
