@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UI;
 
 public class NPC : MonoBehaviour
 {
@@ -8,12 +9,15 @@ public class NPC : MonoBehaviour
     public float s=3f;*/
     public int Possession;
     public NavMeshAgent agent;
+    public Text UI;
     private Transform target;
-    private bool move = false; 
+    public bool move = false; 
     //public LineRenderer lr;
 
     void Start()
     {
+        UI.text = " ";
+
         agent = GetComponent<NavMeshAgent>();
 
         GameObject treasureObj = GameObject.FindGameObjectWithTag("Treasure");
@@ -38,10 +42,10 @@ public class NPC : MonoBehaviour
 
     void Update()
     {
-         move = true;
         if (target != null)
         {
             agent.SetDestination(target.position);
+            move = true;
         }
         /*if (point.Length == 0) return;
 
@@ -63,6 +67,7 @@ public class NPC : MonoBehaviour
             {
                 Possession++;
                 Destroy(other.gameObject);
+                UI.text = "Game Over";
             }
         }
     }
