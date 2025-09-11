@@ -125,6 +125,7 @@ public class NPC : MonoBehaviour
         {
             if (target != null)
             {
+                move = false;
                 other.gameObject.GetComponent<Treasure>().GetTime -= 1.0f * Time.deltaTime;
                 if (other.gameObject.GetComponent<Treasure>().GetTime <= 0.0f)
                 {
