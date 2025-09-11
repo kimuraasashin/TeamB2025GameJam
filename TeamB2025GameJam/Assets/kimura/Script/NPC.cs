@@ -21,6 +21,7 @@ public class NPC : MonoBehaviour
     private Transform target;
     private float stepInterval = 0.5f;// ë´âπÇÃä‘äuÅiïbÅj
     private float stepTimer = 0f;
+    private GameManager gameManager;
     //public LineRenderer lr;
 
     void Start()
@@ -34,6 +35,7 @@ public class NPC : MonoBehaviour
             target = treasureObj.transform;
         }
 
+        gameManager = FindObjectOfType<GameManager>();
         /*lr = GetComponent<LineRenderer>();
         lr.positionCount = point.Length+1;
         
@@ -100,6 +102,7 @@ public class NPC : MonoBehaviour
         }
         if (other.gameObject.name=="goal")
         {
+            gameManager.EnemyGoal();
                 Destroy(gameObject);
         }
     }
