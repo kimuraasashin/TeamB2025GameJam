@@ -88,6 +88,7 @@ public class NPC : MonoBehaviour
         }
         else
         {
+                move = false;
             animator.SetBool("isRunning", false);
         }
         Debug.DrawRay(rayOrigin, transform.forward * detectDistance, Color.green);
