@@ -45,7 +45,7 @@ public class NPC : MonoBehaviour
 
         gameManager = FindObjectOfType<GameManager>();
 
-        //model.SetActive(false);
+        model.SetActive(false);
 
         if (target != null)
         {
@@ -74,27 +74,37 @@ public class NPC : MonoBehaviour
         Vector3 rayOrigin = transform.position + Vector3.up * 0.5f; // 少し上からレイを飛ばす
         if (Physics.Raycast(rayOrigin, transform.forward, out hit, detectDistance))
         {
-            agent.isStopped = true; // 障害物があれば停止
-            Debug.DrawRay(rayOrigin, transform.forward * detectDistance, Color.red);
+            if (!hit.collider.CompareTag("Treasure"))
+            {
+                agent.isStopped = true;// 障害物があれば停止
+            }
+            else
+            {
+                agent.isStopped = false; // ★変更点: Treasureなら進み続ける
+            }
+                Debug.DrawRay(rayOrigin, transform.forward * detectDistance, Color.red);
         }
         else
         {
             agent.isStopped = false; // 障害物がなければ再開
             if (target != null)
+            {
+                agent.SetDestination(target.position);
+            }
+            Debug.DrawRay(rayOrigin, transform.forward * detectDistance, Color.green);
+        }
+
+        if (agent.isStopped || agent.velocity.magnitude < 0.1f)
         {
-            agent.SetDestination(target.position);
-            move = true;
-            animator.SetBool("isRunning", true);
+            animator.SetBool("isRunning", false); // ★変更点: Idleアニメーションに切り替え
+
         }
         else
         {
-                move = false;
-            animator.SetBool("isRunning", false);
+            animator.SetBool("isRunning", true);  // ★変更点: Runアニメーションに切り替え
         }
-        Debug.DrawRay(rayOrigin, transform.forward * detectDistance, Color.green);
-    }
 
-        if (agent.velocity.magnitude > 0.1f)
+        if (animator.GetBool("isRunning"))
         {
             stepTimer -= Time.deltaTime;
 
@@ -147,6 +157,6 @@ public class NPC : MonoBehaviour
 
     public void OnCaptured()
     {
-        //model.SetActive(true);
+        model.SetActive(true);
     }
 }
