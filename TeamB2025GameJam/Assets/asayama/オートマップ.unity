@@ -599,7 +599,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8597030666104377234, guid: a3fea4af76bae144ca1a4fdfd2019e9f, type: 3}
       propertyPath: selection.m_Position.x
-      value: -7
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8597030666104377234, guid: a3fea4af76bae144ca1a4fdfd2019e9f, type: 3}
       propertyPath: selection.m_Position.y
@@ -607,7 +607,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8597030666104377234, guid: a3fea4af76bae144ca1a4fdfd2019e9f, type: 3}
       propertyPath: selection.m_Position.z
-      value: -27
+      value: -28
       objectReference: {fileID: 0}
     - target: {fileID: 8597030666104377234, guid: a3fea4af76bae144ca1a4fdfd2019e9f, type: 3}
       propertyPath: levelData.blocks.size.x
@@ -1271,7 +1271,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8597030666104377234, guid: a3fea4af76bae144ca1a4fdfd2019e9f, type: 3}
       propertyPath: inputWave.array.Array.data[185].groups
-      value: 2147483647
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8597030666104377234, guid: a3fea4af76bae144ca1a4fdfd2019e9f, type: 3}
       propertyPath: inputWave.array.Array.data[191].groups
@@ -1355,7 +1355,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8597030666104377234, guid: a3fea4af76bae144ca1a4fdfd2019e9f, type: 3}
       propertyPath: inputWave.array.Array.data[236].groups
-      value: 121
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8597030666104377234, guid: a3fea4af76bae144ca1a4fdfd2019e9f, type: 3}
       propertyPath: inputWave.array.Array.data[251].groups
@@ -1435,7 +1435,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8597030666104377234, guid: a3fea4af76bae144ca1a4fdfd2019e9f, type: 3}
       propertyPath: inputWave.array.Array.data[287].groups
-      value: 121
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8597030666104377234, guid: a3fea4af76bae144ca1a4fdfd2019e9f, type: 3}
       propertyPath: inputWave.array.Array.data[300].groups
