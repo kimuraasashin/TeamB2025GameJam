@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 4475969044195731043}
   - component: {fileID: 6875564725926916273}
   - component: {fileID: 5757871554911185740}
-  - component: {fileID: 4387037152719703513}
   - component: {fileID: 1127757041280210814}
   m_Layer: 0
   m_Name: DebugPlayer
@@ -32,8 +31,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.6, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -123,30 +122,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 254155dca5e8cbf4583e6f63af9bfb90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 3
   rotationSpeed: 10
   captureRange: 3
   captureCT: 5
   CTCount: 0
---- !u!114 &4387037152719703513
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3220107529014127407}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c555e1e2f901c3439b182d2d9a3708a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  captureRange: 3
-  meter2Threshold: 5
-  meter1Threshold: 10
-  playerTransform: {fileID: 0}
-  circle1: {fileID: 0}
-  circle2: {fileID: 0}
-  circle3: {fileID: 0}
+  animator: {fileID: 0}
 --- !u!54 &1127757041280210814
 Rigidbody:
   m_ObjectHideFlags: 0
