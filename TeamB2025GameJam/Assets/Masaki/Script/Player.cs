@@ -86,7 +86,7 @@ public class Player : MonoBehaviour
             }
         }
 
-        Debug.Log($"Input Check -> h: {h:F2}, v: {v:F2}, running: {newRunning}");
+        //Debug.Log($"Input Check -> h: {h:F2}, v: {v:F2}, running: {newRunning}");
     }
 
     private void Move()
@@ -147,5 +147,13 @@ public class Player : MonoBehaviour
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, captureRange);
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Field"))
+        {
+            Debug.Log("ï«Ç…Ç‘Ç¬Ç©Ç¡ÇΩÅI");
+        }
     }
 }
