@@ -91,8 +91,11 @@ public class Player : MonoBehaviour
 
     private void Move()
     {
-        Vector3 worldMove = inputMove * speed * Time.fixedDeltaTime;
-        rb.MovePosition(rb.position + worldMove);
+        // 入力ベクトルを速度に変換
+        Vector3 moveVelocity = inputMove * speed;
+
+        // Rigidbody の速度に直接代入
+        rb.velocity = new Vector3(moveVelocity.x, rb.velocity.y, moveVelocity.z);
     }
 
     private void ApplyRotation()
