@@ -121,7 +121,7 @@ public class NPC : MonoBehaviour
         }
     }
 
-    void OnCaptured()
+    public void OnCaptured()
     {
         model.SetActive(true);
     }
