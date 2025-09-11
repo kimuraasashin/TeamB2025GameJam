@@ -17,6 +17,8 @@ public class NPC : MonoBehaviour
     public AudioSource se;
     public AudioClip itemGet;
     public AudioClip walk;
+    public float detectDistance = 2.0f;  // ‘O•û‚ÌáŠQ•¨‚ğŒŸ’m‚·‚é‹——£
+    public float stopDistance = 1.0f;    // –Ú“I’n‚Ìè‘O‚Å~‚Ü‚é‹——£
 
     private Transform target;
     private float stepInterval = 0.5f;// ‘«‰¹‚ÌŠÔŠui•bj
@@ -44,6 +46,13 @@ public class NPC : MonoBehaviour
         gameManager = FindObjectOfType<GameManager>();
 
         model.SetActive(false);
+
+        if (target != null)
+        {
+            agent.SetDestination(target.position);
+        }
+
+        agent.stoppingDistance = stopDistance;
         /*lr = GetComponent<LineRenderer>();
         lr.positionCount = point.Length+1;
         
@@ -61,7 +70,17 @@ public class NPC : MonoBehaviour
 
     void Update()
     {
-        if (target != null)
+        RaycastHit hit;
+        Vector3 rayOrigin = transform.position + Vector3.up * 0.5f; // ­‚µã‚©‚çƒŒƒC‚ğ”ò‚Î‚·
+        if (Physics.Raycast(rayOrigin, transform.forward, out hit, detectDistance))
+        {
+            agent.isStopped = true; // áŠQ•¨‚ª‚ ‚ê‚Î’â~
+            Debug.DrawRay(rayOrigin, transform.forward * detectDistance, Color.red);
+        }
+        else
+        {
+            agent.isStopped = false; // áŠQ•¨‚ª‚È‚¯‚ê‚ÎÄŠJ
+            if (target != null)
         {
             agent.SetDestination(target.position);
             move = true;
@@ -71,6 +90,8 @@ public class NPC : MonoBehaviour
         {
             animator.SetBool("isRunning", false);
         }
+        Debug.DrawRay(rayOrigin, transform.forward * detectDistance, Color.green);
+    }
 
         if (agent.velocity.magnitude > 0.1f)
         {
