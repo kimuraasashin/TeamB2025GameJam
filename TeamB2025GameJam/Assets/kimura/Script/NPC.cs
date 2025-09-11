@@ -22,6 +22,9 @@ public class NPC : MonoBehaviour
     private float stepInterval = 0.5f;// ‘«‰¹‚ÌŠÔŠui•bj
     private float stepTimer = 0f;
     private GameManager gameManager;
+
+    [SerializeField]
+    private Animator animator;
     //public LineRenderer lr;
 
     void Start()
@@ -57,6 +60,11 @@ public class NPC : MonoBehaviour
         {
             agent.SetDestination(target.position);
             move = true;
+            animator.SetBool("isRunning", true);
+        }
+        else
+        {
+            animator.SetBool("isRunning", false);
         }
 
         if (agent.velocity.magnitude > 0.1f)
@@ -93,6 +101,7 @@ public class NPC : MonoBehaviour
                 other.gameObject.GetComponent<Treasure>().GetTime -= 1.0f * Time.deltaTime;
                 if (other.gameObject.GetComponent<Treasure>().GetTime <= 0.0f)
                 {
+                    animator.SetTrigger("steal");
                     Possession++;
                     Destroy(other.gameObject);
                     se.PlayOneShot(itemGet);
