@@ -10,6 +10,18 @@ namespace AutoLevel.Examples
         private LevelGroupManager groupManager;
         private List<BaseLevelDataBuilder> builders;
 
+        private void Start()
+        {
+            if (groupManager.Solve(0))
+            {
+                foreach (var rebuild in builders)
+                    rebuild.Rebuild();
+
+
+
+            }
+        }
+
         private void OnEnable()
         {
             // level group manager will find all the level builder in the scene and group the
