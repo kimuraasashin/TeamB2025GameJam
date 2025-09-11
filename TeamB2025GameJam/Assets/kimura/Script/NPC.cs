@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Audio;
 using UnityEngine.UI;
+using static UnityEditor.Progress;
 
 public class NPC : MonoBehaviour
 {
@@ -11,14 +13,19 @@ public class NPC : MonoBehaviour
     public NavMeshAgent agent;
     public Text UI;
     public Transform goal;
+    public bool move = false;
+    public AudioSource se;
+    public AudioClip itemGet;
+    public AudioClip walk;
+
     private Transform target;
-    public bool move = false; 
+    private float stepInterval = 0.5f;// ë´âπÇÃä‘äuÅiïbÅj
+    private float stepTimer = 0f;
     //public LineRenderer lr;
 
     void Start()
     {
-        UI.text = " ";
-
+        
         agent = GetComponent<NavMeshAgent>();
 
         GameObject treasureObj = GameObject.FindGameObjectWithTag("Treasure");
@@ -26,6 +33,7 @@ public class NPC : MonoBehaviour
         {
             target = treasureObj.transform;
         }
+
         /*lr = GetComponent<LineRenderer>();
         lr.positionCount = point.Length+1;
         
@@ -47,6 +55,21 @@ public class NPC : MonoBehaviour
         {
             agent.SetDestination(target.position);
             move = true;
+        }
+
+        if (agent.velocity.magnitude > 0.1f)
+        {
+            stepTimer -= Time.deltaTime;
+
+            if (stepTimer <= 0f)
+            {
+                se.PlayOneShot(walk);
+                stepTimer = stepInterval;
+            }
+        }
+        else
+        {
+            stepTimer = 0f;
         }
         /*if (point.Length == 0) return;
 
@@ -70,6 +93,7 @@ public class NPC : MonoBehaviour
                 {
                     Possession++;
                     Destroy(other.gameObject);
+                    se.PlayOneShot(itemGet);
                     target = goal;
                 }
             }
