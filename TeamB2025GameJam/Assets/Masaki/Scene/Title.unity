@@ -241,7 +241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04313f55936ac0e409053067235bd545, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSceneName: GameScene
+  nextSceneName: Scene-Masaki
   fadePanel: {fileID: 1507426648}
   fadeDuration: 1
 --- !u!4 &775740779

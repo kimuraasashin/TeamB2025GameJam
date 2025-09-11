@@ -21,6 +21,8 @@ public class Player : MonoBehaviour
     [SerializeField]
     private Animator animator;
 
+    private GameManager gameManager;
+
     // 入力判定の閾値
     private const float inputThreshold = 0.1f;
 
@@ -34,6 +36,8 @@ public class Player : MonoBehaviour
         {
             animator = GetComponentInChildren<Animator>();
         }
+
+        gameManager = FindObjectOfType<GameManager>();
     }
 
     private void FixedUpdate()
@@ -135,8 +139,18 @@ public class Player : MonoBehaviour
 
         if (nearestTarget != null)
         {
-            Destroy(nearestTarget.gameObject);
-            Debug.Log("最も近い敵を捕獲しました！");
+            // Enemy（NPC）のスクリプトを取得して OnCaptured を呼ぶ
+            NPC npc = nearestTarget.GetComponent<NPC>();
+            if (npc != null)
+            {
+                npc.OnCaptured();
+                gameManager.EnemyCapture();
+                Debug.Log("最も近い敵を捕獲しました！（OnCaptured 呼び出し）");
+            }
+            else
+            {
+                Debug.LogWarning("Enemy に NPC スクリプトがアタッチされていません！");
+            }
         }
         else
         {

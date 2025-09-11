@@ -31,6 +31,14 @@ public class Footsteps : MonoBehaviour
 
     void Update()
     {
+        // プレイヤーがまだ見つかっていない場合は探す
+        if (playerTransform == null)
+        {
+            var p = GameObject.FindWithTag("Player");
+            if (p != null) playerTransform = p.transform;
+            else return; // まだいないので処理しない
+        }
+
         //敵をタグで検索
         var enemies = GameObject.FindGameObjectsWithTag("Enemy");
 

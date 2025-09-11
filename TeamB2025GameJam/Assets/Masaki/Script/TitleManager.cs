@@ -5,9 +5,9 @@ using System.Collections;
 
 public class TitleManager : MonoBehaviour
 {
-    [SerializeField] private string nextSceneName = "GameScene"; //遷移先シーン名
-    [SerializeField] private Image fadePanel;                    //フェード用画像(黒)
-    [SerializeField] private float fadeDuration = 1.0f;          //フェードにかける時間
+    [SerializeField] private string nextSceneName = "Scene-Masaki"; //遷移先シーン名
+    [SerializeField] private Image fadePanel;           //フェード用画像(黒)
+    [SerializeField] private float fadeDuration = 1.0f; //フェードにかける時間
     private bool isFading = false; //フェードしているか
 
     private void Start()

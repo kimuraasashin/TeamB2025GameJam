@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
@@ -16,7 +17,10 @@ public class GameManager : MonoBehaviour
 
     [SerializeField]
     private const int treasureQuantity = 2; //フィールドに存在する宝の数(固定数)
+    [SerializeField]
+    private const int enemyQuantity = 1;    //フィールドに存在する義賊の数(固定数)
     private int stolenCount = 0;            //盗られた宝のカウント
+    private int enemyCount = 0;             //捕まえた義賊のカウント
     private bool isEnemyGoal = false;       //義賊がゴールしたか
     private bool isGameEnd = false;         //ゲームが終了したか
     private Game gameState = Game.GamePlay; //現在のゲームの状態
@@ -34,9 +38,12 @@ public class GameManager : MonoBehaviour
     private bool didShowOverAnimation = false;
 
     //ゲーム開始に必要な要素
-    [SerializeField] private Transform fieldTransform = null; // フィールド（safe positionsを子に持つオブジェクト）
-    [SerializeField] private GameObject playerPrefab = null;  // プレイヤープレハブ
-    [SerializeField] private GameObject enemyPrefab = null;   // 敵プレハブ
+    [SerializeField] private Transform fieldTransform = null;  //フィールド（safe positionsを子に持つオブジェクト）
+    [SerializeField] private GameObject playerPrefab = null;   //プレイヤーのプレハブ
+    [SerializeField] private GameObject enemyPrefab = null;    //敵のプレハブ
+
+    [SerializeField] private Transform treasurePos = null;     //宝の配置位置
+    [SerializeField] private GameObject treasurePrefab = null; //宝のプレハブ
 
     //一度だけ生成するためのガード
     private bool didSpawnInitial = false;
@@ -49,10 +56,11 @@ public class GameManager : MonoBehaviour
         // 1秒かけて透明にフェードイン
         StartCoroutine(FadeTo(0f, 0.5f));
 
-        // フィールドの子からランダムに2つ選んでプレイヤーと敵を配置
+        // フィールドの子からランダムに2つ選んでプレイヤーと敵を配置し、宝も配置
         if (!didSpawnInitial)
         {
             SpawnPlayerAndEnemyAtRandomChildren();
+            SpawnTreasure();
             didSpawnInitial = true;
         }
     }
@@ -62,8 +70,8 @@ public class GameManager : MonoBehaviour
         //敵をタグで検索
         var enemies = GameObject.FindGameObjectsWithTag("Enemy");
 
-        //敵が存在しなければ、ゲームクリア
-        if(enemies.Length == 0)
+        //捕まえた義賊の数が義賊の総数になれば、ゲームクリア
+        if(enemyCount == enemyQuantity)
         {
             ChangeState(Game.GameClear);
         }
@@ -110,6 +118,12 @@ public class GameManager : MonoBehaviour
                     }
                     break;
             }
+
+            //左クリックでタイトルに遷移
+            if(Input.GetMouseButton(0))
+            {
+                SceneManager.LoadScene("Title");
+            }
         }
     }
 
@@ -136,6 +150,11 @@ public class GameManager : MonoBehaviour
     public void EnemyGoal()
     {
         isEnemyGoal = true;
+    }
+
+    public void EnemyCapture()
+    {
+        enemyCount++;
     }
 
     public void SetAlpha(float alpha)
@@ -259,21 +278,10 @@ public class GameManager : MonoBehaviour
     }
 
     /// <summary>
-    /// fieldTransform の子のうちランダムに2つ選んで、1つにプレイヤー、もう1つに敵をInstantiate
+    /// fieldTransform の子のうちランダムに2つ選んで、1つにプレイヤー、もう1つに敵を生成
     /// </summary>
     private void SpawnPlayerAndEnemyAtRandomChildren()
     {
-        if (fieldTransform == null)
-        {
-            Debug.LogWarning("Field Transform is not set on GameManager. Skipping spawn.");
-            return;
-        }
-        if (playerPrefab == null || enemyPrefab == null)
-        {
-            Debug.LogWarning("Player or Enemy prefab is not set on GameManager. Skipping spawn.");
-            return;
-        }
-
         int childCount = fieldTransform.childCount;
         if (childCount == 0)
         {
@@ -299,5 +307,34 @@ public class GameManager : MonoBehaviour
         // プレイヤーと敵を生成（位置と回転は子の Transform に合わせる）
         Instantiate(playerPrefab, t1.position, t1.rotation);
         Instantiate(enemyPrefab, t2.position, t2.rotation);
+    }
+
+    /// <summary>
+    /// 宝を生成
+    /// </summary>
+    private void SpawnTreasure()
+    {
+        int childCount = treasurePos.childCount;
+        if (childCount == 0)
+        {
+            Debug.LogWarning("TreasurePos has no children to use as spawn points.");
+            return;
+        }
+
+        int idx1 = Random.Range(0, childCount);
+        int idx2 = idx1;
+        if (childCount > 1)
+        {
+            do
+            {
+                idx2 = Random.Range(0, childCount);
+            } while (idx2 == idx1);
+        }
+
+        Transform t1 = treasurePos.GetChild(idx1);
+        Transform t2 = treasurePos.GetChild(idx2);
+
+        Instantiate(treasurePrefab, t1.position, t1.rotation);
+        Instantiate(treasurePrefab, t2.position, t2.rotation);
     }
 }
