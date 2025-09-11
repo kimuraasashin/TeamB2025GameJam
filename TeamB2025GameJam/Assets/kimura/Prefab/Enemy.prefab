@@ -57,6 +57,7 @@ MonoBehaviour:
   itemGet: {fileID: 8300000, guid: 56f3cd0cbbd9234478e4449cab24eb51, type: 3}
   walk: {fileID: 8300000, guid: d46a9e0b5e0d994429728a7d345a6555, type: 3}
   animator: {fileID: 2417634316031079960}
+  model: {fileID: 8946072876258047704}
 --- !u!195 &7143479451004033254
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -268,5 +269,10 @@ Animator:
 --- !u!4 &8605540293102431330 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7841293106933389942, guid: 5358fd1db56fd5f4ebd3a9185f223155, type: 3}
+  m_PrefabInstance: {fileID: 1998713970660587028}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8946072876258047704 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7465294887362724044, guid: 5358fd1db56fd5f4ebd3a9185f223155, type: 3}
   m_PrefabInstance: {fileID: 1998713970660587028}
   m_PrefabAsset: {fileID: 0}

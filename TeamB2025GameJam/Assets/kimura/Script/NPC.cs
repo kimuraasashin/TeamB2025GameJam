@@ -25,6 +25,9 @@ public class NPC : MonoBehaviour
 
     [SerializeField]
     private Animator animator;
+
+    [SerializeField]
+    private GameObject model;
     //public LineRenderer lr;
 
     void Start()
@@ -39,6 +42,8 @@ public class NPC : MonoBehaviour
         }
 
         gameManager = FindObjectOfType<GameManager>();
+
+        model.SetActive(false);
         /*lr = GetComponent<LineRenderer>();
         lr.positionCount = point.Length+1;
         
@@ -114,5 +119,10 @@ public class NPC : MonoBehaviour
             Destroy(gameObject);
             gameManager.EnemyGoal();
         }
+    }
+
+    void OnCaptured()
+    {
+        model.SetActive(true);
     }
 }
