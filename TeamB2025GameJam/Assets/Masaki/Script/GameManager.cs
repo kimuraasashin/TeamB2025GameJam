@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private const int treasureQuantity = 2; //フィールドに存在する宝の数(固定数)
     private int stolenCount = 0;            //盗られた宝のカウント
+    private bool isEnemyGoal = false;       //義賊がゴールしたか
     private bool isGameEnd = false;         //ゲームが終了したか
     private Game gameState = Game.GamePlay; //現在のゲームの状態
     public Image fadePanel;                 //暗くする用の画像
@@ -32,6 +33,14 @@ public class GameManager : MonoBehaviour
     private bool didShowClearAnimation = false;
     private bool didShowOverAnimation = false;
 
+    //ゲーム開始に必要な要素
+    [SerializeField] private Transform fieldTransform = null; // フィールド（safe positionsを子に持つオブジェクト）
+    [SerializeField] private GameObject playerPrefab = null;  // プレイヤープレハブ
+    [SerializeField] private GameObject enemyPrefab = null;   // 敵プレハブ
+
+    //一度だけ生成するためのガード
+    private bool didSpawnInitial = false;
+
     private void Start()
     {
         // 最初は完全に不透明にしておく
@@ -39,6 +48,13 @@ public class GameManager : MonoBehaviour
 
         // 1秒かけて透明にフェードイン
         StartCoroutine(FadeTo(0f, 0.5f));
+
+        // フィールドの子からランダムに2つ選んでプレイヤーと敵を配置
+        if (!didSpawnInitial)
+        {
+            SpawnPlayerAndEnemyAtRandomChildren();
+            didSpawnInitial = true;
+        }
     }
 
     private void Update()
@@ -52,8 +68,8 @@ public class GameManager : MonoBehaviour
             ChangeState(Game.GameClear);
         }
 
-        //盗られた宝の数がフィールドに存在する宝の数と同じになれば(全ての宝を盗られたなら)、ゲームオーバー
-        if(stolenCount == treasureQuantity)
+        //盗られた宝の数がフィールドに存在する宝の数と同じになる(全ての宝を盗られた)かつ、敵がゴールしたなら、ゲームオーバー
+        if(stolenCount == treasureQuantity && isEnemyGoal)
         {
             ChangeState(Game.GameOver);
         }
@@ -114,6 +130,14 @@ public class GameManager : MonoBehaviour
         stolenCount++;
     }
 
+    /// <summary>
+    /// 敵がゴールした
+    /// </summary>
+    public void EnemyGoal()
+    {
+        isEnemyGoal = true;
+    }
+
     public void SetAlpha(float alpha)
     {
         if (fadePanel == null) return;
@@ -121,7 +145,6 @@ public class GameManager : MonoBehaviour
         Color c = fadePanel.color;
         c.a = alpha;
         fadePanel.color = c;
-        // 必要なら
         fadePanel.raycastTarget = (alpha > 0.01f);
     }
 
@@ -233,5 +256,48 @@ public class GameManager : MonoBehaviour
         Vector2 final = rt.anchoredPosition;
         final.y = targetY;
         rt.anchoredPosition = final;
+    }
+
+    /// <summary>
+    /// fieldTransform の子のうちランダムに2つ選んで、1つにプレイヤー、もう1つに敵をInstantiate
+    /// </summary>
+    private void SpawnPlayerAndEnemyAtRandomChildren()
+    {
+        if (fieldTransform == null)
+        {
+            Debug.LogWarning("Field Transform is not set on GameManager. Skipping spawn.");
+            return;
+        }
+        if (playerPrefab == null || enemyPrefab == null)
+        {
+            Debug.LogWarning("Player or Enemy prefab is not set on GameManager. Skipping spawn.");
+            return;
+        }
+
+        int childCount = fieldTransform.childCount;
+        if (childCount == 0)
+        {
+            Debug.LogWarning("Field Transform has no children to use as spawn points.");
+            return;
+        }
+
+        // childCount が 1 の場合は同じ位置に両方置く（あるいは別動作にしたい場合はここを調整）
+        int idx1 = Random.Range(0, childCount);
+        int idx2 = idx1;
+        if (childCount > 1)
+        {
+            // idx2 が idx1 と被らないように選択
+            do
+            {
+                idx2 = Random.Range(0, childCount);
+            } while (idx2 == idx1);
+        }
+
+        Transform t1 = fieldTransform.GetChild(idx1);
+        Transform t2 = fieldTransform.GetChild(idx2);
+
+        // プレイヤーと敵を生成（位置と回転は子の Transform に合わせる）
+        Instantiate(playerPrefab, t1.position, t1.rotation);
+        Instantiate(enemyPrefab, t2.position, t2.rotation);
     }
 }
