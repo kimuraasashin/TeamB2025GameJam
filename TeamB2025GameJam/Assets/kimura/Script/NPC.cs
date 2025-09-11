@@ -45,7 +45,7 @@ public class NPC : MonoBehaviour
 
         gameManager = FindObjectOfType<GameManager>();
 
-        model.SetActive(false);
+        //model.SetActive(false);
 
         if (target != null)
         {
@@ -129,6 +129,7 @@ public class NPC : MonoBehaviour
                 other.gameObject.GetComponent<Treasure>().GetTime -= 1.0f * Time.deltaTime;
                 if (other.gameObject.GetComponent<Treasure>().GetTime <= 0.0f)
                 {
+                    animator.SetBool("isRunning", false);
                     animator.SetTrigger("steal");
                     Possession++;
                     Destroy(other.gameObject);
@@ -146,6 +147,6 @@ public class NPC : MonoBehaviour
 
     public void OnCaptured()
     {
-        model.SetActive(true);
+        //model.SetActive(true);
     }
 }
