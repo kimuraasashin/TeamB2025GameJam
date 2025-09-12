@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &455012 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5768330268521210792, guid: 88d47b46b04c8ee4696b3626b1a43caa, type: 3}
+  m_PrefabInstance: {fileID: 576886060}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &48616016 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5765744381648477666, guid: f7d8ac4370f6be34590c129dd6b4bffc, type: 3}
@@ -923,6 +928,14 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 5768330268521210792, guid: 88d47b46b04c8ee4696b3626b1a43caa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.454
+      objectReference: {fileID: 0}
+    - target: {fileID: 5768330268521210792, guid: 88d47b46b04c8ee4696b3626b1a43caa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.365
+      objectReference: {fileID: 0}
     - target: {fileID: 5780843565304767122, guid: 88d47b46b04c8ee4696b3626b1a43caa, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -1716,6 +1729,10 @@ PrefabInstance:
       propertyPath: fieldTransform
       value: 
       objectReference: {fileID: 1057615661}
+    - target: {fileID: 7857016078993322950, guid: 0b36a07dd7c8d9d4fa36da4604eb2129, type: 3}
+      propertyPath: goalTranceform
+      value: 
+      objectReference: {fileID: 455012}
     - target: {fileID: 7857016078993322950, guid: 0b36a07dd7c8d9d4fa36da4604eb2129, type: 3}
       propertyPath: treasurePrefab
       value: 

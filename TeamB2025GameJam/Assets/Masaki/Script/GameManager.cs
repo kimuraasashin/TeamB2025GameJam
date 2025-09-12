@@ -45,6 +45,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Transform treasurePos = null;     //宝の配置位置
     [SerializeField] private GameObject treasurePrefab = null; //宝のプレハブ
 
+    [SerializeField] private Transform goalTranceform = null;  //ゴールの位置
+
     //一度だけ生成するためのガード
     private bool didSpawnInitial = false;
 
@@ -306,7 +308,10 @@ public class GameManager : MonoBehaviour
 
         // プレイヤーと敵を生成（位置と回転は子の Transform に合わせる）
         Instantiate(playerPrefab, t1.position, t1.rotation);
-        Instantiate(enemyPrefab, t2.position, t2.rotation);
+        GameObject enemy = Instantiate(enemyPrefab, t2.position, t2.rotation);
+        
+        NPC npc = enemy.GetComponent<NPC>();
+        npc.goal = goalTranceform;
     }
 
     /// <summary>
