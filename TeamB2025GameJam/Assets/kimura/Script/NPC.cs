@@ -143,7 +143,7 @@ public class NPC : MonoBehaviour
         {
             if (target != null)
             {
-                if (isStealing)
+                if (!isStealing)
                 {
                     animator.SetTrigger("steal");
                     isStealing = true;
