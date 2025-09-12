@@ -363,6 +363,33 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!54 &582944201
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582944187}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &715296356
 GameObject:
   m_ObjectHideFlags: 0
@@ -911,7 +938,7 @@ Transform:
   m_GameObject: {fileID: 1683639992}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.03, y: -0.13, z: 6.37}
+  m_LocalPosition: {x: -3.06, y: -0.13, z: 6.37}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1178,6 +1205,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3882289634391548131, guid: fa0c5521ade3b2a4180aebc8ab6d5612, type: 3}
       insertIndex: -1
       addedObject: {fileID: 582944200}
+    - targetCorrespondingSourceObject: {fileID: 3882289634391548131, guid: fa0c5521ade3b2a4180aebc8ab6d5612, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 582944201}
   m_SourcePrefab: {fileID: 100100000, guid: fa0c5521ade3b2a4180aebc8ab6d5612, type: 3}
 --- !u!1001 &8469288314384701183
 PrefabInstance:
