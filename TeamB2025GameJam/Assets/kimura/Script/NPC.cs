@@ -171,6 +171,7 @@ public class NPC : MonoBehaviour
 
     public void OnCaptured()
     {
+        agent.isStopped = true;
         isCaptured = true;
         target = null;
         model.SetActive(true);
