@@ -49,7 +49,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   rotationSpeed: 10
-  captureRange: 3
+  captureRange: 1.5
   captureCT: 5
   CTCount: 0
   animator: {fileID: 5847706928773882146}
