@@ -130,14 +130,17 @@ public class NPC : MonoBehaviour
                     Destroy(other.gameObject);
                     se.PlayOneShot(itemGet);
 
-                    GameObject nextTreasure = GameObject.FindGameObjectWithTag("Treasure");
-                    if (nextTreasure != null)
+                    if (target == null)
                     {
-                        target = nextTreasure.transform; // まだTreasureが残っていれば次へ
-                    }
-                    else
-                    {
-                        target = goal; // 残ってなければゴールへ
+                        GameObject nextTreasure = GameObject.FindGameObjectWithTag("Treasure");
+                        if (nextTreasure != null)
+                        {
+                            target = nextTreasure.transform; // まだTreasureが残っていれば次へ
+                        }
+                        else
+                        {
+                            target = goal; // 残ってなければゴールへ
+                        }
                     }
 
                     // NavMeshAgentに新しい目的地をセット
