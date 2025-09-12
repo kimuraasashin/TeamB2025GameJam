@@ -9,14 +9,14 @@ public class NPC : MonoBehaviour
     /*public Vector3[] point;
     public int cp = 0;
     public float s=3f;*/
+    public float speed;
     public int Possession;
     public NavMeshAgent agent;
     public Text UI;
     public Transform goal;
     public bool move = false;
-    public AudioSource se;
-    public AudioClip itemGet;
-    public AudioClip walk;
+    public AudioSource itemGet;
+    public AudioSource walk;
     public float detectDistance = 2.0f;  // 前方の障害物を検知する距離
     public float stopDistance = 1.0f;    // 目的地の手前で止まる距離
 
@@ -34,7 +34,16 @@ public class NPC : MonoBehaviour
 
     void Start()
     {
-        
+        if (itemGet != null)
+        {
+            itemGet.Stop();
+        }
+
+        if (walk != null)
+        {
+            walk.Stop();
+        }
+
         agent = GetComponent<NavMeshAgent>();
 
         GameObject treasureObj = GameObject.FindGameObjectWithTag("Treasure");
@@ -45,7 +54,7 @@ public class NPC : MonoBehaviour
 
         gameManager = FindObjectOfType<GameManager>();
 
-        model.SetActive(false);
+        //model.SetActive(false);
 
         if (target != null)
         {
@@ -53,6 +62,8 @@ public class NPC : MonoBehaviour
         }
 
         agent.stoppingDistance = stopDistance;
+
+        agent.speed = speed;
         /*lr = GetComponent<LineRenderer>();
         lr.positionCount = point.Length+1;
         
@@ -90,6 +101,7 @@ public class NPC : MonoBehaviour
             if (target != null)
             {
                 agent.SetDestination(target.position);
+                walk.Play();
             }
             Debug.DrawRay(rayOrigin, transform.forward * detectDistance, Color.green);
         }
@@ -110,7 +122,7 @@ public class NPC : MonoBehaviour
 
             if (stepTimer <= 0f)
             {
-                se.PlayOneShot(walk);
+                
                 stepTimer = stepInterval;
             }
         }
@@ -139,17 +151,18 @@ public class NPC : MonoBehaviour
                 other.gameObject.GetComponent<Treasure>().GetTime -= 1.0f * Time.deltaTime;
                 if (other.gameObject.GetComponent<Treasure>().GetTime <= 0.0f)
                 {
+                    itemGet.Play();
                     animator.SetBool("isRunning", false);
                     animator.SetTrigger("steal");
                     Possession++;
                     Destroy(other.gameObject);
-                    se.PlayOneShot(itemGet);
                     target = goal;
                 }
             }
         }
         if (other.gameObject.name=="goal")
         {
+            walk.Stop();
             Destroy(gameObject);
             gameManager.EnemyGoal();
         }
@@ -157,6 +170,6 @@ public class NPC : MonoBehaviour
 
     public void OnCaptured()
     {
-        model.SetActive(true);
+        //model.SetActive(true);
     }
 }
