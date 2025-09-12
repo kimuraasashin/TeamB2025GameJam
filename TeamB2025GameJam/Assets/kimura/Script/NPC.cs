@@ -9,7 +9,7 @@ public class NPC : MonoBehaviour
     // š•œŠˆ: Œo˜H„‰ñ—p‚Ì•Ï”
     public Vector3[] point;
     public int cp = 0;
-    public float s = 3f;
+    public float s;
 
     public int Possession;
     public NavMeshAgent agent;
@@ -39,6 +39,8 @@ public class NPC : MonoBehaviour
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+
+        agent.speed = s;
 
         GameObject treasureObj = GameObject.FindGameObjectWithTag("Treasure");
         if (treasureObj != null)
