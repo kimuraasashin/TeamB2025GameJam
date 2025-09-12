@@ -310,6 +310,7 @@ public class GameManager : MonoBehaviour
         Instantiate(playerPrefab, t1.position, t1.rotation);
         GameObject enemy = Instantiate(enemyPrefab, t2.position, t2.rotation);
         
+        
         NPC npc = enemy.GetComponent<NPC>();
         npc.goal = goalTranceform;
     }
