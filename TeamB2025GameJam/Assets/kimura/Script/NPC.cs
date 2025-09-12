@@ -1,98 +1,98 @@
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Audio;
 using UnityEngine.UI;
+using static UnityEditor.Progress;
 
 public class NPC : MonoBehaviour
 {
-    [Header("移動設定")]
-    public float speed = 3.5f;
-    public float detectDistance = 2.0f;
-    public float stopDistance = 1.0f;
+    // ★復活: 経路巡回用の変数
+    public Vector3[] point;
+    public int cp = 0;
+    public float s = 3f;
 
-    [Header("効果音")]
-    public AudioSource audioSource;
-    public AudioClip walkClip;
-    public AudioClip itemGetClip;
-
-    [Header("参照")]
-    public Transform goal;
+    public int Possession;
+    public NavMeshAgent agent;
     public Text UI;
+    public Transform goal;
+    public bool move = false;
+    public AudioSource se;
+    public AudioClip itemGet;
+    public AudioClip walk;
+    public float detectDistance = 2.0f;  // 前方の障害物を検知する距離
+    public float stopDistance = 1.0f;    // 目的地の手前で止まる距離
 
-    private NavMeshAgent agent;
     private Transform target;
+    private float stepInterval = 0.5f; // 足音の間隔（秒）
+    private float stepTimer = 0f;
     private GameManager gameManager;
 
-    // アニメーターパラメータのハッシュ化（安全＆高速）
-    private static readonly int IsRunning = Animator.StringToHash("isRunning");
-    private static readonly int Steal = Animator.StringToHash("steal");
-
+    [SerializeField]
     private Animator animator;
-    private float stepTimer;
-    private float stepInterval = 0.5f;
 
-    public int Possession { get; private set; }
+    [SerializeField]
+    private GameObject model;
+
+    // ★復活: LineRenderer
+    public LineRenderer lr;
 
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        animator = GetComponentInChildren<Animator>();
-        gameManager = FindObjectOfType<GameManager>();
 
-        agent.speed = speed;
-        agent.stoppingDistance = stopDistance;
-
-        // 最初のターゲットを Treasure に設定
         GameObject treasureObj = GameObject.FindGameObjectWithTag("Treasure");
         if (treasureObj != null)
         {
-            SetTarget(treasureObj.transform);
+            target = treasureObj.transform;
+        }
+
+        gameManager = FindObjectOfType<GameManager>();
+
+        model.SetActive(false);
+
+        if (target != null)
+        {
+            agent.SetDestination(target.position);
+        }
+
+        agent.stoppingDistance = stopDistance;
+
+        // ★復活: LineRenderer の経路表示
+        if (point.Length > 0)
+        {
+            lr = GetComponent<LineRenderer>();
+            lr.positionCount = point.Length + 1;
+
+            for (int i = 0; i < point.Length; i++)
+            {
+                lr.SetPosition(i, point[i]);
+            }
+            lr.SetPosition(point.Length, point[0]);
+
+            transform.position = point[0];
         }
     }
 
     void Update()
     {
-        CheckObstacle();
-        UpdateAnimation();
-        HandleFootsteps();
-    }
-
-    private void CheckObstacle()
-    {
-        RaycastHit hit;
-        Vector3 rayOrigin = transform.position + Vector3.up * 0.5f;
-
-        if (Physics.Raycast(rayOrigin, transform.forward, out hit, detectDistance))
+        if (target != null)
         {
-            if (!hit.collider.CompareTag("Treasure"))
-            {
-                agent.isStopped = true;
-            }
-            else
-            {
-                agent.isStopped = false;
-            }
+            agent.SetDestination(target.position);
+            move = true;
+            animator.SetBool("isRunning", true);
         }
         else
         {
-            agent.isStopped = false;
-            if (target != null) agent.SetDestination(target.position);
+            animator.SetBool("isRunning", false);
         }
-    }
 
-    private void UpdateAnimation()
-    {
-        bool isMoving = !agent.isStopped && agent.velocity.magnitude > 0.1f;
-        animator.SetBool(IsRunning, isMoving);
-    }
-
-    private void HandleFootsteps()
-    {
-        if (animator.GetBool(IsRunning))
+        if (agent.velocity.magnitude > 0.1f)
         {
             stepTimer -= Time.deltaTime;
+
             if (stepTimer <= 0f)
             {
-                audioSource.PlayOneShot(walkClip);
+                se.PlayOneShot(walk);
                 stepTimer = stepInterval;
             }
         }
@@ -100,34 +100,46 @@ public class NPC : MonoBehaviour
         {
             stepTimer = 0f;
         }
+
+        // ★復活: 巡回処理（point を順番に移動）
+        if (point.Length > 0)
+        {
+            Vector3 targetPoint = point[cp];
+            transform.position = Vector3.MoveTowards(transform.position, targetPoint, s * Time.deltaTime);
+
+            if (Vector3.Distance(transform.position, targetPoint) < 0.05f)
+            {
+                cp = (cp + 1) % point.Length; // 次のポイントへ
+            }
+        }
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
-        if (other.TryGetComponent<Treasure>(out Treasure treasure))
+        if (other.gameObject.GetComponent<Treasure>())
         {
-            // Treasureを取得
-            animator.SetTrigger(Steal);
-            Possession++;
-            Destroy(other.gameObject);
-
-            audioSource.PlayOneShot(itemGetClip);
-            SetTarget(goal);
+            if (target != null)
+            {
+                other.gameObject.GetComponent<Treasure>().GetTime -= 1.0f * Time.deltaTime;
+                if (other.gameObject.GetComponent<Treasure>().GetTime <= 0.0f)
+                {
+                    animator.SetTrigger("steal");
+                    Possession++;
+                    Destroy(other.gameObject);
+                    se.PlayOneShot(itemGet);
+                    target = goal;
+                }
+            }
         }
-
-        if (other.CompareTag("Goal"))
+        if (other.gameObject.name == "goal")
         {
+            Destroy(gameObject);
             gameManager.EnemyGoal();
-            Destroy(gameObject, 1.5f); // 少し遅らせて消す
         }
     }
 
-    private void SetTarget(Transform newTarget)
+    public void OnCaptured()
     {
-        target = newTarget;
-        if (target != null)
-        {
-            agent.SetDestination(target.position);
-        }
+        model.SetActive(true);
     }
 }
