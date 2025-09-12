@@ -122,10 +122,10 @@ public class NPC : MonoBehaviour
         {
             if (target != null)
             {
+                animator.SetTrigger("steal");
                 other.gameObject.GetComponent<Treasure>().GetTime -= 1.0f * Time.deltaTime;
                 if (other.gameObject.GetComponent<Treasure>().GetTime <= 0.0f)
                 {
-                    animator.SetTrigger("steal");
                     Possession++;
                     Destroy(other.gameObject);
                     se.PlayOneShot(itemGet);
