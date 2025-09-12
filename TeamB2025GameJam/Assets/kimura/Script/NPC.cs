@@ -36,6 +36,8 @@ public class NPC : MonoBehaviour
     // ★復活: LineRenderer
     public LineRenderer lr;
 
+    private bool isStealing = false;
+
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -77,6 +79,25 @@ public class NPC : MonoBehaviour
 
     void Update()
     {
+        if (target == null)
+        {
+            GameObject nextTreasure = GameObject.FindGameObjectWithTag("Treasure");
+            if (nextTreasure != null)
+            {
+                target = nextTreasure.transform; // まだTreasureが残っていれば次へ
+            }
+            else
+            {
+                target = goal; // 残ってなければゴールへ
+            }
+
+            // NavMeshAgentに新しい目的地をセット
+            if (target != null)
+            {
+                agent.SetDestination(target.position);
+            }
+        }
+
         if (target != null)
         {
             agent.SetDestination(target.position);
@@ -122,32 +143,20 @@ public class NPC : MonoBehaviour
         {
             if (target != null)
             {
-                animator.SetTrigger("steal");
+                if (isStealing)
+                {
+                    animator.SetTrigger("steal");
+                    isStealing = true;
+                }
+                
                 other.gameObject.GetComponent<Treasure>().GetTime -= 1.0f * Time.deltaTime;
                 if (other.gameObject.GetComponent<Treasure>().GetTime <= 0.0f)
                 {
                     Possession++;
                     Destroy(other.gameObject);
                     se.PlayOneShot(itemGet);
-
-                    if (target == null)
-                    {
-                        GameObject nextTreasure = GameObject.FindGameObjectWithTag("Treasure");
-                        if (nextTreasure != null)
-                        {
-                            target = nextTreasure.transform; // まだTreasureが残っていれば次へ
-                        }
-                        else
-                        {
-                            target = goal; // 残ってなければゴールへ
-                        }
-                    }
-
-                    // NavMeshAgentに新しい目的地をセット
-                    if (target != null)
-                    {
-                        agent.SetDestination(target.position);
-                    }
+                    target = null;
+                    isStealing = false;
                 }
             }
         }
