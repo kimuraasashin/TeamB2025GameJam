@@ -60,7 +60,7 @@ MonoBehaviour:
   itemGet: {fileID: 0}
   walk: {fileID: 0}
   detectDistance: 2
-  stopDistance: 1
+  stopDistance: 0
   animator: {fileID: 2417634316031079960}
   model: {fileID: 8946072876258047704}
   lr: {fileID: 0}
