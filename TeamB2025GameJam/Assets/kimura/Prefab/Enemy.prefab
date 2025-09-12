@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 185989039782833474}
   - component: {fileID: 7143479451004033254}
   - component: {fileID: 2699310241788587148}
+  - component: {fileID: 6837420743818876972}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -47,18 +48,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7010fd9323fb1604ea6b8e333bd1193f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  point: []
+  cp: 0
+  s: 3
   Possession: 0
   agent: {fileID: 7143479451004033254}
   UI: {fileID: 0}
   goal: {fileID: 0}
   move: 0
+  se: {fileID: 0}
   itemGet: {fileID: 0}
   walk: {fileID: 0}
   detectDistance: 2
   stopDistance: 1
   animator: {fileID: 2417634316031079960}
   model: {fileID: 8946072876258047704}
+  lr: {fileID: 0}
 --- !u!195 &7143479451004033254
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -104,6 +109,33 @@ CapsuleCollider:
   m_Height: 3
   m_Direction: 1
   m_Center: {x: 0, y: 0.95, z: 0}
+--- !u!54 &6837420743818876972
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3882289634391548131}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1998713970660587028
 PrefabInstance:
   m_ObjectHideFlags: 0
