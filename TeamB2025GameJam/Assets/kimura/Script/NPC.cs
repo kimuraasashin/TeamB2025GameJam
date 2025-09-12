@@ -20,7 +20,7 @@ public class NPC : MonoBehaviour
     public AudioClip itemGet;
     public AudioClip walk;
     public float detectDistance = 2.0f;  // 前方の障害物を検知する距離
-    public float stopDistance = 1.0f;    // 目的地の手前で止まる距離
+    public float stopDistance = 0.1f;    // 目的地の手前で止まる距離
 
     private Transform target;
     private float stepInterval = 0.5f; // 足音の間隔（秒）
