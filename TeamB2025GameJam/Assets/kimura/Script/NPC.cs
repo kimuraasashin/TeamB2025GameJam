@@ -160,7 +160,7 @@ public class NPC : MonoBehaviour
                 }
             }
         }
-        if (other.gameObject.name == "goal")
+        if (other.gameObject.name == "Goal")
         {
             Destroy(gameObject);
             gameManager.EnemyGoal();
