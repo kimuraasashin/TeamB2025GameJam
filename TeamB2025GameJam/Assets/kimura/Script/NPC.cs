@@ -38,6 +38,8 @@ public class NPC : MonoBehaviour
 
     private bool isStealing = false;
 
+    private bool isCaptured=false;
+
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -79,7 +81,7 @@ public class NPC : MonoBehaviour
 
     void Update()
     {
-        if (target == null)
+        if (target == null && !isCaptured)
         {
             GameObject nextTreasure = GameObject.FindGameObjectWithTag("Treasure");
             if (nextTreasure != null)
@@ -169,6 +171,9 @@ public class NPC : MonoBehaviour
 
     public void OnCaptured()
     {
+        isCaptured = true;
+        target = null;
         model.SetActive(true);
+        animator.SetTrigger("defeated");
     }
 }
