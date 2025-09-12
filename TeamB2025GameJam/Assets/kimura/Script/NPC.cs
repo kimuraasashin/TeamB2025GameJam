@@ -127,7 +127,22 @@ public class NPC : MonoBehaviour
                     Possession++;
                     Destroy(other.gameObject);
                     se.PlayOneShot(itemGet);
-                    target = goal;
+
+                    GameObject nextTreasure = GameObject.FindGameObjectWithTag("Treasure");
+                    if (nextTreasure != null)
+                    {
+                        target = nextTreasure.transform; // まだTreasureが残っていれば次へ
+                    }
+                    else
+                    {
+                        target = goal; // 残ってなければゴールへ
+                    }
+
+                    // NavMeshAgentに新しい目的地をセット
+                    if (target != null)
+                    {
+                        agent.SetDestination(target.position);
+                    }
                 }
             }
         }
